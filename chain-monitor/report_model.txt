@@ -1,0 +1,23 @@
+cadeia = DMS, CAMPANHA_AUTO
+status = OK, ERROR, EXEC
+
+- Verificar inicio e fim da Cadeia PRC_BLOQ_DESBLOQ (DMS)
+    - Incluir status caso exista algum job em ERROR ou EXEC ()
+
+- Verificar inicio e fim da Cadeia CAMPANHA_AUTO
+    - Incluir no status caso job tenha saído no código 2
+
+
+
+Bom dia
+Cadeia: PRC_BLOQ_DESBLOQ
+DUMMY_CHK_LOAD_RAIDC Inicio 25/1/23 18:01
+DUMMY_RAIDC_EvaluateActions Fim  26/1/23 3:11 PRC_CAMPANHAS_AUTOMATICAS
+Autodistrib ok
+
+Não há faixas suficientes PRC_RAJADA 
+Inicio 26/01/2023 03:11:32
+Fim 26/01/2023 03:21:55 BCV
+
+icspx07
+ora_dgrw_pos_snapshot
