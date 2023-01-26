@@ -1,0 +1,13 @@
+[package]
+name = "ged-parser"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+chrono = "0.4.23"
+image-builder = "0.3.3"
+reqwest = { version = "0.11", features = ["json", "multipart", "blocking"] }
+openssl = { version = "0.10", features = ["vendored"] }

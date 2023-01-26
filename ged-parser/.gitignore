@@ -1,0 +1,8 @@
+/.vscode
+/target
+
+whatsapp.png
+email.png
+last_execution.csv
+
+.env
