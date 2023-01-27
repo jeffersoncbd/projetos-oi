@@ -45,14 +45,11 @@ pub fn read_csv(path: &str, filter: &String) -> Result<Vec<StructuredRow>, &'sta
         }
         let row_type = cells[2].trim();
         if &row_type.trim().to_lowercase() == filter {
-            let structured_row = match StructuredRow::new(
+            let structured_row = StructuredRow::new(
                 cells[0].trim().to_string(),
                 cells[1].trim().to_string(),
                 cells[3].trim().to_string(),
-            ) {
-                Ok(row) => row,
-                Err(error) => return Err(error),
-            };
+            )?;
             structured.push(structured_row);
         }
     }
