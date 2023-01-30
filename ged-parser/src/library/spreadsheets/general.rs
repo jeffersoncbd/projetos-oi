@@ -18,12 +18,15 @@ pub struct GeneralSpreadsheet<'a> {
     pub notification: String,
 }
 
-pub const BACKLOG: [&str; 2] = ["Aguardando Fatura", "Aguardando Fatura Resumida"];
-pub const NOTIFICATION: [&str; 4] = [
+pub const BACKLOG: [&str; 3] = [
+    "Aguardando Fatura",
+    "Aguardando Fatura Resumida",
+    "Carregada",
+];
+pub const NOTIFICATION: [&str; 3] = [
     "Aguardando Processamento",
     "Download da Fatura Realizado",
     "Em Processamento",
-    "Carregada",
 ];
 
 fn push_data<'a, T: PartialEq>(header: &'a mut Vec<T>, value: T) {

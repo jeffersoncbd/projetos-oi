@@ -1,38 +1,25 @@
 VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
-27-JAN-23;Em Processamento            ;WHATSAPP;         2
-27-JAN-23;Em Processamento            ;WHATSAPP;         3
-30-JAN-23;Em Processamento            ;WHATSAPP;       190
-30-JAN-23;Em Processamento            ;WHATSAPP;       178
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;      1188
-31-JAN-23;Aguardando Fatura           ;E-MAIL  ;        14
-31-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
 31-JAN-23;Processado com suscesso     ;E-MAIL  ;         2
-31-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        23
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        34
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         9
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        22
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        23
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        15
 01-FEB-23;Em Processamento            ;WHATSAPP;        18
 01-FEB-23;Em Processamento            ;WHATSAPP;         3
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        41
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        45
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;       107
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         7
 01-FEB-23;Em Processamento            ;WHATSAPP;        18
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        34
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       105
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        17
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        33
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
@@ -45,17 +32,15 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        10
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        31
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        60
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        64
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        62
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;       639
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        80
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        81
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        29
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        58
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        25
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         5
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       195
@@ -69,7 +54,7 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 02-FEB-23;Processado com suscesso     ;WHATSAPP;         3
 02-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 02-FEB-23;Em Processamento            ;WHATSAPP;         4
-03-FEB-23;Processado com suscesso     ;WHATSAPP;     28167
+03-FEB-23;Processado com suscesso     ;WHATSAPP;     28185
 03-FEB-23;Em Processamento            ;WHATSAPP;      1772
 03-FEB-23;Em Processamento            ;E-MAIL  ;        12
 03-FEB-23;Processado com suscesso     ;WHATSAPP;         1
@@ -97,6 +82,7 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;        34
 04-FEB-23;Em Processamento            ;WHATSAPP;         4
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;       109
+05-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 05-FEB-23;Download da Fatura Realizado;WHATSAPP;        14
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
@@ -119,12 +105,23 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;       150
 06-FEB-23;Em Processamento            ;WHATSAPP;         1
 06-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-07-FEB-23;Processado com suscesso     ;WHATSAPP;      7452
+07-FEB-23;Processado com suscesso     ;WHATSAPP;      7464
 07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        38
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       986
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       135
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        23
-07-FEB-23;Em Processamento            ;WHATSAPP;         5
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        10
+07-FEB-23;Em Processamento            ;E-MAIL  ;        38
+07-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
+07-FEB-23;Em Processamento            ;E-MAIL  ;        10
+07-FEB-23;Em Processamento            ;E-MAIL  ;        22
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+07-FEB-23;Em Processamento            ;E-MAIL  ;         7
+07-FEB-23;Em Processamento            ;E-MAIL  ;         4
+07-FEB-23;Em Processamento            ;WHATSAPP;         1
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+07-FEB-23;Em Processamento            ;WHATSAPP;     72949
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        69
+07-FEB-23;Em Processamento            ;E-MAIL  ;         2
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+07-FEB-23;Processado com suscesso     ;WHATSAPP;        64
 07-FEB-23;Em Processamento            ;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;WHATSAPP;        38
 07-FEB-23;Em Processamento            ;WHATSAPP;         1
@@ -135,82 +132,107 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 07-FEB-23;Download da Fatura Realizado;E-MAIL  ;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
 07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        55
-08-FEB-23;Em Processamento            ;WHATSAPP;         1
+07-FEB-23;Download da Fatura Realizado;E-MAIL  ;         1
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
+08-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
+08-FEB-23;Em Processamento            ;E-MAIL  ;      5403
 08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         8
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        38
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;      3236
-08-FEB-23;Aguardando Processamento    ;WHATSAPP;        44
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        60
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        74
-08-FEB-23;Em Processamento            ;WHATSAPP;        12
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+08-FEB-23;Processado com suscesso     ;WHATSAPP;       975
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        62
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        91
+08-FEB-23;Em Processamento            ;E-MAIL  ;        72
+08-FEB-23;Em Processamento            ;WHATSAPP;         1
+08-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         8
+09-FEB-23;Em Processamento            ;E-MAIL  ;        11
+09-FEB-23;Em Processamento            ;WHATSAPP;     40247
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
-26-JAN-23;Processado com suscesso     ;E-MAIL  ;     62264
-26-JAN-23;Download da Fatura Realizado;E-MAIL  ;        20
-26-JAN-23;Em Processamento            ;WHATSAPP;         1
-26-JAN-23;Em Processamento            ;WHATSAPP;         8
-27-JAN-23;Em Processamento            ;WHATSAPP;         4
-27-JAN-23;Em Processamento            ;WHATSAPP;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         5
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;        12
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         7
-27-JAN-23;Em Processamento            ;WHATSAPP;         7
-27-JAN-23;Em Processamento            ;WHATSAPP;         3
-28-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-28-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Em Processamento            ;WHATSAPP;         1
-30-JAN-23;Em Processamento            ;WHATSAPP;      1460
-30-JAN-23;Em Processamento            ;WHATSAPP;      1234
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;      2805
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         3
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         2
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;        20
-30-JAN-23;Em Processamento            ;WHATSAPP;        13
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;        15
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+10-FEB-23;Em Processamento            ;E-MAIL  ;      1356
+10-FEB-23;Em Processamento            ;E-MAIL  ;        44
+10-FEB-23;Em Processamento            ;E-MAIL  ;        21
+10-FEB-23;Em Processamento            ;E-MAIL  ;      1551
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         2
+10-FEB-23;Em Processamento            ;WHATSAPP;         2
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Em Processamento            ;E-MAIL  ;        58
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        24
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         7
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;      1079
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       450
+10-FEB-23;Em Processamento            ;E-MAIL  ;      1289
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;      2197
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       630
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Em Processamento            ;E-MAIL  ;       546
+10-FEB-23;Em Processamento            ;E-MAIL  ;        71
+10-FEB-23;Em Processamento            ;WHATSAPP;         3
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       357
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;      1782
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        33
+10-FEB-23;Em Processamento            ;WHATSAPP;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;     15501
+11-FEB-23;Em Processamento            ;E-MAIL  ;         8
+11-FEB-23;Em Processamento            ;WHATSAPP;         6
+11-FEB-23;Em Processamento            ;WHATSAPP;         7
+11-FEB-23;Em Processamento            ;WHATSAPP;      1285
+11-FEB-23;Em Processamento            ;WHATSAPP;         1
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       177
+11-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         7
+11-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;        18
+11-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        70
+11-FEB-23;Carregada                   ;WHATSAPP;        62
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;      3310
+12-FEB-23;Em Processamento            ;WHATSAPP;         5
+14-FEB-23;Aguardando Fatura           ;E-MAIL  ;        22
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;         5
+14-FEB-23;Em Processamento            ;E-MAIL  ;        59
+14-FEB-23;Download da Fatura Realizado;E-MAIL  ;        45
 31-JAN-23;Processado com suscesso     ;WHATSAPP;         2
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1124
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       507
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1138
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       524
 01-FEB-23;Em Processamento            ;WHATSAPP;         6
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        29
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         4
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       167
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       170
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        48
-01-FEB-23;Processado com suscesso     ;WHATSAPP;       619
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       409
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1587
+01-FEB-23;Processado com suscesso     ;WHATSAPP;       620
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       413
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1628
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        32
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        23
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        23
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        27
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        24
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        29
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        71
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;        32
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;        31
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;       107
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        55
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       104
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       108
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       137
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        10
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         6
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        39
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        14
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        31
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;      3350
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;      3340
 01-FEB-23;Em Processamento            ;WHATSAPP;        26
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         9
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        10
@@ -232,14 +254,13 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 03-FEB-23;Processado com suscesso     ;E-MAIL  ;       103
 03-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 03-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-04-FEB-23;Download da Fatura Realizado;WHATSAPP;      2896
-04-FEB-23;Aguardando Fatura           ;E-MAIL  ;        80
+04-FEB-23;Download da Fatura Realizado;WHATSAPP;      2885
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;      2553
 04-FEB-23;Aguardando Fatura           ;E-MAIL  ;        22
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
-04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;        12
-04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         7
+04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 04-FEB-23;Aguardando Fatura           ;E-MAIL  ;        36
 04-FEB-23;Download da Fatura Realizado;WHATSAPP;        37
@@ -262,78 +283,114 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 05-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 05-FEB-23;Em Processamento            ;WHATSAPP;         1
 05-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+06-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+06-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;    137232
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;         9
 06-FEB-23;Em Processamento            ;WHATSAPP;         2
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        17
-07-FEB-23;Download da Fatura Realizado;WHATSAPP;      7130
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       469
-07-FEB-23;Em Processamento            ;WHATSAPP;        19
-07-FEB-23;Em Processamento            ;WHATSAPP;       377
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;      7118
+07-FEB-23;Em Processamento            ;E-MAIL  ;       465
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
+07-FEB-23;Em Processamento            ;WHATSAPP;        10
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
-07-FEB-23;Em Processamento            ;WHATSAPP;        11
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        10
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       250
-07-FEB-23;Em Processamento            ;WHATSAPP;         1
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;       180
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 07-FEB-23;Em Processamento            ;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 07-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;       227
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+07-FEB-23;Aguardando Processamento    ;WHATSAPP;      6922
+08-FEB-23;Processado com suscesso     ;WHATSAPP;       986
+08-FEB-23;Processado com suscesso     ;WHATSAPP;       142
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        49
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
-08-FEB-23;Em Processamento            ;WHATSAPP;      1010
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
+08-FEB-23;Processado com suscesso     ;WHATSAPP;         4
+08-FEB-23;Em Processamento            ;WHATSAPP;        23
+08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
+09-FEB-23;Aguardando Fatura           ;E-MAIL  ;       144
+09-FEB-23;Em Processamento            ;E-MAIL  ;         1
 09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
 09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
-26-JAN-23;Em Processamento            ;WHATSAPP;      3351
-26-JAN-23;Processado com suscesso     ;WHATSAPP;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         7
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         5
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         2
-29-JAN-23;Em Processamento            ;WHATSAPP;         1
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-30-JAN-23;Em Processamento            ;WHATSAPP;       252
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;      1048
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         5
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;       815
-30-JAN-23;Em Processamento            ;WHATSAPP;      1651
-31-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         9
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;        11
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        16
+10-FEB-23;Em Processamento            ;E-MAIL  ;        26
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;        28
+10-FEB-23;Em Processamento            ;E-MAIL  ;         9
+10-FEB-23;Em Processamento            ;E-MAIL  ;         6
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         3
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;      1950
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       166
+10-FEB-23;Em Processamento            ;E-MAIL  ;      1379
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       124
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        38
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       158
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        83
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       107
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        28
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        57
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;         5
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        20
+10-FEB-23;Em Processamento            ;WHATSAPP;        19
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        49
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+11-FEB-23;Em Processamento            ;E-MAIL  ;         2
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+11-FEB-23;Em Processamento            ;WHATSAPP;        40
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       131
+11-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+11-FEB-23;Aguardando Processamento    ;E-MAIL  ;      7703
+11-FEB-23;Carregada                   ;WHATSAPP;     99029
+12-FEB-23;Processado com suscesso     ;E-MAIL  ;        16
+12-FEB-23;Em Processamento            ;WHATSAPP;      8074
+12-FEB-23;Em Processamento            ;E-MAIL  ;         7
+12-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+12-FEB-23;Em Processamento            ;E-MAIL  ;         1
+12-FEB-23;Em Processamento            ;WHATSAPP;        72
+12-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+12-FEB-23;Em Processamento            ;WHATSAPP;         3
+12-FEB-23;Em Processamento            ;WHATSAPP;       141
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        20
+13-FEB-23;Aguardando Fatura           ;E-MAIL  ;        12
+14-FEB-23;Aguardando Processamento    ;E-MAIL  ;         8
+31-JAN-23;Em Processamento            ;WHATSAPP;         8
 31-JAN-23;Processado com suscesso     ;E-MAIL  ;         3
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;         5
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       188
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       189
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       158
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        17
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         9
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        12
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        71
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        18
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        73
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         4
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        37
 01-FEB-23;Em Processamento            ;WHATSAPP;        14
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       283
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       290
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       547
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        26
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        65
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       566
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        72
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       584
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        74
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        23
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1798
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1849
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       581
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        27
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        40
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        34
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
@@ -344,9 +401,8 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        33
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        14
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        47
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1521
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1550
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 02-FEB-23;Em Processamento            ;E-MAIL  ;        46
 02-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 02-FEB-23;Processado com suscesso     ;WHATSAPP;       117
@@ -361,11 +417,12 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 03-FEB-23;Processado com suscesso     ;WHATSAPP;        42
 03-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;      2642
-04-FEB-23;Aguardando Fatura           ;E-MAIL  ;        40
+04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         9
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;       741
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;       326
 04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         9
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;       399
+04-FEB-23;Em Processamento            ;E-MAIL  ;         1
 04-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 04-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 04-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
@@ -381,82 +438,132 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;        43
 05-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         5
 05-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+05-FEB-23;Em Processamento            ;E-MAIL  ;         1
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;       727
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;        62
 05-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 05-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 05-FEB-23;Download da Fatura Realizado;WHATSAPP;        45
 05-FEB-23;Aguardando Fatura           ;E-MAIL  ;        12
-05-FEB-23;Download da Fatura Realizado;WHATSAPP;        27
+05-FEB-23;Download da Fatura Realizado;WHATSAPP;        26
 05-FEB-23;Processado com suscesso     ;WHATSAPP;       112
 05-FEB-23;Aguardando Fatura           ;E-MAIL  ;        29
 05-FEB-23;Em Processamento            ;WHATSAPP;        11
 05-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
 05-FEB-23;Em Processamento            ;WHATSAPP;        10
 06-FEB-23;Em Processamento            ;WHATSAPP;         1
-06-FEB-23;Processado com suscesso     ;WHATSAPP;     81318
+06-FEB-23;Processado com suscesso     ;WHATSAPP;     81347
 06-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;      3221
-06-FEB-23;Download da Fatura Realizado;WHATSAPP;        47
+06-FEB-23;Download da Fatura Realizado;WHATSAPP;        45
 06-FEB-23;Processado com suscesso     ;WHATSAPP;       134
 06-FEB-23;Aguardando Fatura           ;E-MAIL  ;         7
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 06-FEB-23;Processado com suscesso     ;WHATSAPP;         6
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       674
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        26
-07-FEB-23;Em Processamento            ;WHATSAPP;         3
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        10
-07-FEB-23;Em Processamento            ;WHATSAPP;         4
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         7
-07-FEB-23;Em Processamento            ;WHATSAPP;       961
-07-FEB-23;Aguardando Processamento    ;WHATSAPP;        35
-07-FEB-23;Aguardando Processamento    ;WHATSAPP;        11
+07-FEB-23;Processado com suscesso     ;WHATSAPP;       297
+07-FEB-23;Processado com suscesso     ;WHATSAPP;       201
+07-FEB-23;Em Processamento            ;E-MAIL  ;       669
+07-FEB-23;Em Processamento            ;E-MAIL  ;        26
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         4
+07-FEB-23;Em Processamento            ;E-MAIL  ;         7
+07-FEB-23;Em Processamento            ;WHATSAPP;        22
+07-FEB-23;Em Processamento            ;WHATSAPP;         1
 07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        49
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         4
 07-FEB-23;Em Processamento            ;WHATSAPP;         2
 07-FEB-23;Em Processamento            ;WHATSAPP;         6
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         6
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;       249
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;        31
+08-FEB-23;Em Processamento            ;E-MAIL  ;         2
+08-FEB-23;Processado com suscesso     ;WHATSAPP;      2350
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;       117
+08-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        11
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+09-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
-26-JAN-23;Download da Fatura Realizado;WHATSAPP;      2418
-27-JAN-23;Em Processamento            ;WHATSAPP;        14
-27-JAN-23;Em Processamento            ;WHATSAPP;        21
-27-JAN-23;Processado com suscesso     ;WHATSAPP;         5
-28-JAN-23;Processado com suscesso     ;E-MAIL  ;         7
-28-JAN-23;Em Processamento            ;WHATSAPP;         1
-28-JAN-23;Aguardando Fatura           ;E-MAIL  ;        21
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Em Processamento            ;WHATSAPP;         1
-29-JAN-23;Processado com suscesso     ;WHATSAPP;         1
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;         2
-30-JAN-23;Processado com suscesso     ;WHATSAPP;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       496
+09-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        35
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        22
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        23
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+10-FEB-23;Em Processamento            ;WHATSAPP;        30
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         4
+10-FEB-23;Em Processamento            ;E-MAIL  ;       343
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       522
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       127
+10-FEB-23;Em Processamento            ;WHATSAPP;         6
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       137
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;        30
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+11-FEB-23;Download da Fatura Realizado;WHATSAPP;      6665
+11-FEB-23;Em Processamento            ;WHATSAPP;       947
+11-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        40
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        67
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        13
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        15
+11-FEB-23;Em Processamento            ;WHATSAPP;        10
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        10
+11-FEB-23;Em Processamento            ;WHATSAPP;        15
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+11-FEB-23;Em Processamento            ;WHATSAPP;      1833
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        12
+11-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+11-FEB-23;Processado com suscesso     ;WHATSAPP;         2
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
+12-FEB-23;Processado com suscesso     ;WHATSAPP;         7
+12-FEB-23;Download da Fatura Realizado;WHATSAPP;     45364
+12-FEB-23;Em Processamento            ;E-MAIL  ;        13
+12-FEB-23;Em Processamento            ;WHATSAPP;       411
+12-FEB-23;Em Processamento            ;WHATSAPP;      1543
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       293
+12-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         8
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        11
+12-FEB-23;Em Processamento            ;WHATSAPP;        93
+12-FEB-23;Em Processamento            ;WHATSAPP;         1
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
+13-FEB-23;Processado com suscesso     ;E-MAIL  ;        19
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;       119
+14-FEB-23;Em Processamento            ;WHATSAPP;        97
+14-FEB-23;Em Processamento            ;E-MAIL  ;        12
+14-FEB-23;Em Processamento            ;WHATSAPP;     84397
+14-FEB-23;Aguardando Processamento    ;WHATSAPP;       101
+14-FEB-23;Carregada                   ;WHATSAPP;     51761
+31-JAN-23;Em Processamento            ;E-MAIL  ;         8
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       501
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         9
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        17
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        13
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       195
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         9
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       143
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2237
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        34
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       145
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2271
 01-FEB-23;Em Processamento            ;WHATSAPP;         4
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        12
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1260
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1286
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 01-FEB-23;Em Processamento            ;WHATSAPP;        17
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        36
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       178
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       181
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         5
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        11
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        16
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        20
@@ -466,22 +573,18 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         6
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        12
 01-FEB-23;Em Processamento            ;WHATSAPP;         3
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        31
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;       149
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        27
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        33
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        17
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         5
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         8
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        17
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        70
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        13
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         7
-02-FEB-23;Download da Fatura Realizado;WHATSAPP;      5683
+02-FEB-23;Download da Fatura Realizado;WHATSAPP;      5643
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;        49
 02-FEB-23;Processado com suscesso     ;WHATSAPP;         3
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;       250
@@ -500,6 +603,7 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        10
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;        12
+04-FEB-23;Em Processamento            ;E-MAIL  ;         2
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        15
 04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;        59
@@ -517,7 +621,6 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 04-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         6
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
-05-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 05-FEB-23;Processado com suscesso     ;WHATSAPP;        23
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;       381
 05-FEB-23;Processado com suscesso     ;WHATSAPP;       162
@@ -537,43 +640,82 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;        34
 06-FEB-23;Em Processamento            ;WHATSAPP;         2
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        16
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         6
-07-FEB-23;Em Processamento            ;WHATSAPP;        10
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+07-FEB-23;Em Processamento            ;E-MAIL  ;       131
+07-FEB-23;Processado com suscesso     ;WHATSAPP;        19
+07-FEB-23;Processado com suscesso     ;WHATSAPP;       339
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;        28
+07-FEB-23;Em Processamento            ;E-MAIL  ;        10
 07-FEB-23;Download da Fatura Realizado;E-MAIL  ;         4
-07-FEB-23;Em Processamento            ;WHATSAPP;         1
+07-FEB-23;Em Processamento            ;E-MAIL  ;        11
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        12
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         6
 07-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        15
 07-FEB-23;Processado com suscesso     ;WHATSAPP;        14
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
-08-FEB-23;Em Processamento            ;WHATSAPP;        13
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;       350
-26-JAN-23;Processado com suscesso     ;E-MAIL  ;         6
-26-JAN-23;Em Processamento            ;WHATSAPP;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         9
-27-JAN-23;Em Processamento            ;WHATSAPP;        10
-27-JAN-23;Em Processamento            ;WHATSAPP;        10
-28-JAN-23;Em Processamento            ;WHATSAPP;         6
-28-JAN-23;Processado com suscesso     ;WHATSAPP;         1
-29-JAN-23;Em Processamento            ;WHATSAPP;         1
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;       501
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         1
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-31-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;         8
+08-FEB-23;Em Processamento            ;E-MAIL  ;       224
+08-FEB-23;Processado com suscesso     ;WHATSAPP;         9
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+09-FEB-23;Processado com suscesso     ;E-MAIL  ;     11889
+09-FEB-23;Em Processamento            ;E-MAIL  ;        18
+09-FEB-23;Aguardando Processamento    ;WHATSAPP;      4423
+10-FEB-23;Em Processamento            ;WHATSAPP;         5
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       240
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        50
+10-FEB-23;Em Processamento            ;E-MAIL  ;        45
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+10-FEB-23;Em Processamento            ;E-MAIL  ;      1503
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       577
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        18
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;      1915
+10-FEB-23;Em Processamento            ;E-MAIL  ;       132
+10-FEB-23;Em Processamento            ;E-MAIL  ;        73
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        13
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       194
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        15
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        28
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        47
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        22
+10-FEB-23;Carregada                   ;WHATSAPP;         4
+11-FEB-23;Em Processamento            ;E-MAIL  ;         1
+11-FEB-23;Processado com suscesso     ;WHATSAPP;       154
+11-FEB-23;Download da Fatura Realizado;WHATSAPP;         8
+11-FEB-23;Em Processamento            ;WHATSAPP;         1
+11-FEB-23;Em Processamento            ;WHATSAPP;         9
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        13
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        15
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        76
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       138
+11-FEB-23;Em Processamento            ;WHATSAPP;         2
+11-FEB-23;Aguardando Processamento    ;E-MAIL  ;         7
+12-FEB-23;Processado com suscesso     ;WHATSAPP;         7
+12-FEB-23;Download da Fatura Realizado;E-MAIL  ;        27
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        86
+12-FEB-23;Em Processamento            ;WHATSAPP;        22
+12-FEB-23;Em Processamento            ;WHATSAPP;       123
+12-FEB-23;Em Processamento            ;WHATSAPP;        67
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        11
+12-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+14-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+14-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       125
+14-FEB-23;Carregada                   ;WHATSAPP;        26
+31-JAN-23;Processado com suscesso     ;E-MAIL  ;         6
+31-JAN-23;Em Processamento            ;WHATSAPP;         4
 01-FEB-23;Em Processamento            ;WHATSAPP;         5
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       696
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       705
 01-FEB-23;Em Processamento            ;WHATSAPP;         5
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       100
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       102
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        16
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      3110
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      3192
 01-FEB-23;Em Processamento            ;WHATSAPP;        20
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         8
 01-FEB-23;Em Processamento            ;WHATSAPP;         6
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         9
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
@@ -584,34 +726,29 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         5
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         7
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         7
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       409
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1587
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       413
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      1628
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        43
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         3
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        39
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        15
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        14
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      8006
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      8155
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        48
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         7
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       770
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-01-FEB-23;Processado com suscesso     ;WHATSAPP;        24
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       187
+01-FEB-23;Processado com suscesso     ;WHATSAPP;        25
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       188
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         3
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
@@ -653,6 +790,8 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 05-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 05-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;        16
+06-FEB-23;Em Processamento            ;E-MAIL  ;         1
+06-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
 06-FEB-23;Download da Fatura Realizado;E-MAIL  ;        17
 06-FEB-23;Aguardando Fatura           ;E-MAIL  ;        54
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;        35
@@ -661,12 +800,20 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 06-FEB-23;Processado com suscesso     ;WHATSAPP;        20
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         5
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         9
-07-FEB-23;Em Processamento            ;WHATSAPP;       169
+07-FEB-23;Em Processamento            ;E-MAIL  ;       954
+07-FEB-23;Processado com suscesso     ;WHATSAPP;       154
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;        11
+07-FEB-23;Em Processamento            ;WHATSAPP;         4
 07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
-07-FEB-23;Em Processamento            ;WHATSAPP;         3
-07-FEB-23;Em Processamento            ;WHATSAPP;         5
-07-FEB-23;Em Processamento            ;WHATSAPP;        55
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         5
+07-FEB-23;Processado com suscesso     ;E-MAIL  ;     15023
+07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        34
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;        57
+07-FEB-23;Em Processamento            ;E-MAIL  ;         1
+07-FEB-23;Em Processamento            ;WHATSAPP;         1
+07-FEB-23;Em Processamento            ;E-MAIL  ;         1
+07-FEB-23;Processado com suscesso     ;WHATSAPP;        55
+07-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        49
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         3
@@ -675,34 +822,70 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        29
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         5
 07-FEB-23;Em Processamento            ;WHATSAPP;         1
-08-FEB-23;Em Processamento            ;WHATSAPP;       148
-08-FEB-23;Em Processamento            ;WHATSAPP;        53
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        26
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        28
-08-FEB-23;Em Processamento            ;WHATSAPP;         5
-08-FEB-23;Em Processamento            ;WHATSAPP;        97
+08-FEB-23;Em Processamento            ;WHATSAPP;         4
+08-FEB-23;Em Processamento            ;WHATSAPP;         2
+08-FEB-23;Em Processamento            ;E-MAIL  ;        27
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         7
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        19
+08-FEB-23;Em Processamento            ;WHATSAPP;         3
 08-FEB-23;Processado com suscesso     ;WHATSAPP;         5
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
-26-JAN-23;Processado com suscesso     ;E-MAIL  ;         4
-27-JAN-23;Em Processamento            ;WHATSAPP;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         9
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         2
-27-JAN-23;Em Processamento            ;WHATSAPP;         1
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-30-JAN-23;Em Processamento            ;WHATSAPP;       240
-30-JAN-23;Em Processamento            ;WHATSAPP;       357
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         4
-30-JAN-23;Em Processamento            ;WHATSAPP;        13
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;        20
-01-FEB-23;Processado com suscesso     ;WHATSAPP;       161
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        14
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
+09-FEB-23;Aguardando Fatura           ;E-MAIL  ;         6
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        10
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       375
+10-FEB-23;Em Processamento            ;WHATSAPP;         1
+10-FEB-23;Em Processamento            ;E-MAIL  ;       333
+10-FEB-23;Em Processamento            ;E-MAIL  ;      6209
+10-FEB-23;Em Processamento            ;WHATSAPP;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        11
+10-FEB-23;Em Processamento            ;WHATSAPP;         2
+10-FEB-23;Em Processamento            ;WHATSAPP;         8
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        16
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        26
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        16
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       314
+11-FEB-23;Em Processamento            ;WHATSAPP;       211
+11-FEB-23;Processado com suscesso     ;WHATSAPP;         9
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        15
+11-FEB-23;Em Processamento            ;WHATSAPP;        10
+11-FEB-23;Em Processamento            ;WHATSAPP;        20
+11-FEB-23;Em Processamento            ;WHATSAPP;         2
+11-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;      5426
+11-FEB-23;Em Processamento            ;WHATSAPP;        22
+11-FEB-23;Em Processamento            ;WHATSAPP;        50
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       293
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;         8
+11-FEB-23;Processado com suscesso     ;WHATSAPP;         8
+11-FEB-23;Download da Fatura Realizado;E-MAIL  ;         2
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;    198252
+11-FEB-23;Aguardando Processamento    ;WHATSAPP;       222
+12-FEB-23;Processado com suscesso     ;E-MAIL  ;        16
+12-FEB-23;Processado com suscesso     ;WHATSAPP;     42771
+12-FEB-23;Em Processamento            ;E-MAIL  ;         2
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;      1082
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       467
+12-FEB-23;Em Processamento            ;WHATSAPP;        77
+12-FEB-23;Em Processamento            ;WHATSAPP;       146
+12-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+14-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+14-FEB-23;Aguardando Processamento    ;E-MAIL  ;      5825
+31-JAN-23;Em Processamento            ;WHATSAPP;         2
+01-FEB-23;Processado com suscesso     ;WHATSAPP;       162
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        47
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        93
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        97
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       269
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        11
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        82
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       577
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        12
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         5
@@ -710,9 +893,7 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       578
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       596
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        10
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        12
@@ -720,33 +901,28 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         9
 01-FEB-23;Em Processamento            ;WHATSAPP;         3
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       143
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       145
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         7
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        51
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        64
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        65
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        43
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        41
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        61
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        62
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
 01-FEB-23;Em Processamento            ;WHATSAPP;         4
 01-FEB-23;Download da Fatura Realizado;E-MAIL  ;         2
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2032
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;        27
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;        37
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       521
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2059
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;        25
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;        35
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       526
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        16
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       154
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       157
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        92
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
 01-FEB-23;Download da Fatura Realizado;E-MAIL  ;         1
 02-FEB-23;Aguardando Fatura           ;E-MAIL  ;        40
 02-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
@@ -758,14 +934,16 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 02-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 02-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;         8
-03-FEB-23;Download da Fatura Realizado;WHATSAPP;       870
+03-FEB-23;Download da Fatura Realizado;WHATSAPP;       852
 03-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        18
 03-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         4
 03-FEB-23;Processado com suscesso     ;E-MAIL  ;        15
 03-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
-04-FEB-23;Processado com suscesso     ;WHATSAPP;      2657
+04-FEB-23;Processado com suscesso     ;WHATSAPP;      2668
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;       479
+04-FEB-23;Em Processamento            ;E-MAIL  ;        31
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+04-FEB-23;Em Processamento            ;E-MAIL  ;         6
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
 04-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 04-FEB-23;Processado com suscesso     ;WHATSAPP;         1
@@ -780,6 +958,7 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 04-FEB-23;Processado com suscesso     ;WHATSAPP;         4
 04-FEB-23;Processado com suscesso     ;WHATSAPP;        19
 04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+05-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 05-FEB-23;Processado com suscesso     ;WHATSAPP;       286
 05-FEB-23;Em Processamento            ;WHATSAPP;        11
 05-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
@@ -789,16 +968,23 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 05-FEB-23;Em Processamento            ;WHATSAPP;         5
 06-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         8
 06-FEB-23;Processado com suscesso     ;WHATSAPP;         6
+06-FEB-23;Em Processamento            ;E-MAIL  ;         3
+06-FEB-23;Em Processamento            ;E-MAIL  ;         1
 06-FEB-23;Processado com suscesso     ;WHATSAPP;        23
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;       567
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;        49
 06-FEB-23;Em Processamento            ;WHATSAPP;         1
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
-07-FEB-23;Em Processamento            ;WHATSAPP;       318
-07-FEB-23;Em Processamento            ;WHATSAPP;        24
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       923
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        11
+07-FEB-23;Em Processamento            ;WHATSAPP;         9
+07-FEB-23;Em Processamento            ;WHATSAPP;         1
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;        16
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        16
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         3
+07-FEB-23;Em Processamento            ;E-MAIL  ;         6
+07-FEB-23;Processado com suscesso     ;WHATSAPP;        10
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;WHATSAPP;        54
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;       110
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        59
@@ -810,38 +996,65 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 07-FEB-23;Processado com suscesso     ;WHATSAPP;        11
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         6
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
+07-FEB-23;Carregada                   ;WHATSAPP;     28420
 08-FEB-23;Processado com suscesso     ;WHATSAPP;         8
 08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         7
-08-FEB-23;Em Processamento            ;WHATSAPP;      1045
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;       566
-08-FEB-23;Em Processamento            ;WHATSAPP;        58
-08-FEB-23;Em Processamento            ;WHATSAPP;      2538
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+08-FEB-23;Em Processamento            ;WHATSAPP;        28
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        13
+08-FEB-23;Em Processamento            ;WHATSAPP;        71
+08-FEB-23;Em Processamento            ;WHATSAPP;         1
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        13
+08-FEB-23;Em Processamento            ;E-MAIL  ;       349
+08-FEB-23;Em Processamento            ;E-MAIL  ;        25
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;        56
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+08-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+08-FEB-23;Em Processamento            ;E-MAIL  ;       232
+08-FEB-23;Em Processamento            ;E-MAIL  ;        60
 08-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
 08-FEB-23;Processado com suscesso     ;WHATSAPP;         2
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         6
-09-FEB-23;Download da Fatura Realizado;WHATSAPP;      2799
-09-FEB-23;Aguardando Fatura           ;E-MAIL  ;        11
+09-FEB-23;Download da Fatura Realizado;WHATSAPP;      2794
+09-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+09-FEB-23;Em Processamento            ;E-MAIL  ;         7
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
-26-JAN-23;Em Processamento            ;WHATSAPP;         1
-26-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         5
-27-JAN-23;Em Processamento            ;WHATSAPP;         3
-27-JAN-23;Em Processamento            ;WHATSAPP;         5
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;        30
-28-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;        15
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;         7
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;      2991
-30-JAN-23;Em Processamento            ;WHATSAPP;       460
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;      1784
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;       532
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;       469
-30-JAN-23;Em Processamento            ;WHATSAPP;       703
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;         3
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+09-FEB-23;Carregada                   ;WHATSAPP;     15396
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         7
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         5
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         4
+10-FEB-23;Em Processamento            ;E-MAIL  ;        18
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        20
+10-FEB-23;Em Processamento            ;E-MAIL  ;        15
+10-FEB-23;Em Processamento            ;E-MAIL  ;      3281
+10-FEB-23;Em Processamento            ;E-MAIL  ;      2827
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
+10-FEB-23;Em Processamento            ;E-MAIL  ;      3803
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         9
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        40
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       587
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         2
+10-FEB-23;Em Processamento            ;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        55
+10-FEB-23;Carregada                   ;WHATSAPP;         1
+11-FEB-23;Processado com suscesso     ;WHATSAPP;         2
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        38
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;      3055
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        46
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       137
+11-FEB-23;Em Processamento            ;WHATSAPP;        32
+11-FEB-23;Em Processamento            ;E-MAIL  ;         1
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;     46653
+11-FEB-23;Em Processamento            ;E-MAIL  ;      3432
+11-FEB-23;Download da Fatura Realizado;E-MAIL  ;        33
+12-FEB-23;Em Processamento            ;E-MAIL  ;         1
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       132
+13-FEB-23;Processado com suscesso     ;WHATSAPP;         9
+14-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
+14-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        12
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        29
@@ -852,10 +1065,9 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        18
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        19
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        19
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2240
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2274
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       207
 01-FEB-23;Em Processamento            ;WHATSAPP;         6
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        41
 01-FEB-23;Em Processamento            ;WHATSAPP;        14
 01-FEB-23;Em Processamento            ;WHATSAPP;         3
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        10
@@ -864,14 +1076,14 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Em Processamento            ;WHATSAPP;         4
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        21
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        76
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        78
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        11
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       210
-01-FEB-23;Processado com suscesso     ;WHATSAPP;      3768
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       215
+01-FEB-23;Processado com suscesso     ;WHATSAPP;      3778
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        21
-01-FEB-23;Processado com suscesso     ;WHATSAPP;       624
+01-FEB-23;Processado com suscesso     ;WHATSAPP;       626
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
 01-FEB-23;Em Processamento            ;WHATSAPP;        20
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         6
@@ -880,15 +1092,15 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        49
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        12
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       256
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       258
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;        26
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       757
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       760
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        13
 02-FEB-23;Processado com suscesso     ;WHATSAPP;      2573
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
-02-FEB-23;Processado com suscesso     ;WHATSAPP;     96659
+02-FEB-23;Processado com suscesso     ;WHATSAPP;     96699
 02-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        22
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;       113
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;        88
@@ -926,62 +1138,112 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 04-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 05-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
 05-FEB-23;Em Processamento            ;WHATSAPP;         1
-05-FEB-23;Processado com suscesso     ;WHATSAPP;       679
+05-FEB-23;Processado com suscesso     ;WHATSAPP;       680
 05-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
 05-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 06-FEB-23;Em Processamento            ;WHATSAPP;      3205
-06-FEB-23;Download da Fatura Realizado;WHATSAPP;      2786
+06-FEB-23;Download da Fatura Realizado;WHATSAPP;      2757
 06-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
-06-FEB-23;Processado com suscesso     ;WHATSAPP;      1183
+06-FEB-23;Processado com suscesso     ;WHATSAPP;      1185
 06-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
 06-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 07-FEB-23;Em Processamento            ;WHATSAPP;       907
 07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       300
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        43
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;       196
-07-FEB-23;Em Processamento            ;WHATSAPP;        63
+07-FEB-23;Processado com suscesso     ;E-MAIL  ;        22
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         3
+07-FEB-23;Em Processamento            ;E-MAIL  ;         3
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+07-FEB-23;Processado com suscesso     ;WHATSAPP;        21
+07-FEB-23;Em Processamento            ;E-MAIL  ;       247
+07-FEB-23;Processado com suscesso     ;WHATSAPP;       917
+07-FEB-23;Em Processamento            ;E-MAIL  ;       194
+07-FEB-23;Em Processamento            ;WHATSAPP;         5
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;       257
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;        19
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;        32
-08-FEB-23;Em Processamento            ;WHATSAPP;        91
-08-FEB-23;Aguardando Processamento    ;WHATSAPP;         1
-08-FEB-23;Em Processamento            ;WHATSAPP;        20
-08-FEB-23;Em Processamento            ;WHATSAPP;         1
+08-FEB-23;Processado com suscesso     ;E-MAIL  ;        64
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        55
+08-FEB-23;Em Processamento            ;E-MAIL  ;       244
+08-FEB-23;Em Processamento            ;E-MAIL  ;        54
+08-FEB-23;Em Processamento            ;E-MAIL  ;         4
+08-FEB-23;Em Processamento            ;E-MAIL  ;        38
+08-FEB-23;Processado com suscesso     ;WHATSAPP;        93
+08-FEB-23;Em Processamento            ;WHATSAPP;         3
+08-FEB-23;Em Processamento            ;E-MAIL  ;      3174
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 08-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         6
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;      6018
-09-FEB-23;Processado com suscesso     ;WHATSAPP;      2819
+09-FEB-23;Processado com suscesso     ;WHATSAPP;      2824
 09-FEB-23;Aguardando Fatura           ;E-MAIL  ;       111
-09-FEB-23;Em Processamento            ;WHATSAPP;         2
+09-FEB-23;Em Processamento            ;E-MAIL  ;     86222
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         9
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         3
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
-26-JAN-23;Processado com suscesso     ;WHATSAPP;     43288
-26-JAN-23;Em Processamento            ;E-MAIL  ;        15
-27-JAN-23;Em Processamento            ;WHATSAPP;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-27-JAN-23;Processado com suscesso     ;E-MAIL  ;         2
-29-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-29-JAN-23;Aguardando Fatura           ;E-MAIL  ;        18
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;       313
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;        32
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         2
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;        23
-30-JAN-23;Aguardando Fatura           ;E-MAIL  ;         1
-30-JAN-23;Processado com suscesso     ;E-MAIL  ;         1
-30-JAN-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;        28
-01-FEB-23;Processado com suscesso     ;WHATSAPP;       326
+09-FEB-23;Carregada                   ;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        23
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         6
+10-FEB-23;Processado com suscesso     ;WHATSAPP;       771
+10-FEB-23;Em Processamento            ;WHATSAPP;         2
+10-FEB-23;Em Processamento            ;WHATSAPP;         9
+10-FEB-23;Em Processamento            ;WHATSAPP;         1
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;        31
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        39
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        14
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        19
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       952
+10-FEB-23;Em Processamento            ;WHATSAPP;         8
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         3
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Em Processamento            ;WHATSAPP;         2
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        82
+10-FEB-23;Processado com suscesso     ;WHATSAPP;         9
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+10-FEB-23;Em Processamento            ;WHATSAPP;         3
+11-FEB-23;Em Processamento            ;E-MAIL  ;        45
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;        33
+11-FEB-23;Em Processamento            ;WHATSAPP;         1
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;         3
+11-FEB-23;Aguardando Processamento    ;WHATSAPP;        17
+12-FEB-23;Processado com suscesso     ;E-MAIL  ;     85320
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;      2483
+12-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       371
+12-FEB-23;Em Processamento            ;E-MAIL  ;         1
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        53
+12-FEB-23;Em Processamento            ;WHATSAPP;         4
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       299
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        66
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       388
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+13-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         9
+13-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+14-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        28
+14-FEB-23;Em Processamento            ;E-MAIL  ;         1
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+14-FEB-23;Processado com suscesso     ;E-MAIL  ;    159012
+14-FEB-23;Aguardando Fatura           ;E-MAIL  ;     36700
+14-FEB-23;Em Processamento            ;E-MAIL  ;      2556
+14-FEB-23;Aguardando Processamento    ;WHATSAPP;        11
+31-JAN-23;Em Processamento            ;WHATSAPP;         1
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;        27
+01-FEB-23;Processado com suscesso     ;WHATSAPP;       327
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        39
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       430
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       438
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        86
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        33
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        71
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 01-FEB-23;Em Processamento            ;WHATSAPP;         3
-01-FEB-23;Download da Fatura Realizado;WHATSAPP;        34
+01-FEB-23;Download da Fatura Realizado;WHATSAPP;        33
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       216
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        18
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       104
@@ -994,14 +1256,12 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         3
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        55
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;         5
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        27
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        38
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        50
-01-FEB-23;Processado com suscesso     ;WHATSAPP;       621
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        18
+01-FEB-23;Processado com suscesso     ;WHATSAPP;       622
 01-FEB-23;Processado com suscesso     ;WHATSAPP;       302
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         8
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
@@ -1012,10 +1272,10 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        10
 01-FEB-23;Em Processamento            ;WHATSAPP;         1
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        11
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;        54
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;        57
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         5
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        37
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;       490
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;       500
 01-FEB-23;Em Processamento            ;WHATSAPP;        17
 01-FEB-23;Em Processamento            ;WHATSAPP;         2
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;         4
@@ -1023,10 +1283,9 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 01-FEB-23;Processado com suscesso     ;WHATSAPP;        22
 01-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         6
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        70
-01-FEB-23;Aguardando Fatura           ;E-MAIL  ;        29
-01-FEB-23;Processado com suscesso     ;WHATSAPP;       561
+01-FEB-23;Processado com suscesso     ;WHATSAPP;       563
 01-FEB-23;Processado com suscesso     ;WHATSAPP;         5
-01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2488
+01-FEB-23;Processado com suscesso     ;E-MAIL  ;      2546
 01-FEB-23;Download da Fatura Realizado;WHATSAPP;        50
 01-FEB-23;Processado com suscesso     ;E-MAIL  ;        48
 02-FEB-23;Processado com suscesso     ;E-MAIL  ;      2675
@@ -1046,8 +1305,8 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 03-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 03-FEB-23;Processado com suscesso     ;E-MAIL  ;         7
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       217
+04-FEB-23;Em Processamento            ;E-MAIL  ;        79
 04-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       251
-04-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 04-FEB-23;Em Processamento            ;WHATSAPP;         3
 04-FEB-23;Processado com suscesso     ;E-MAIL  ;      1129
 04-FEB-23;Processado com suscesso     ;WHATSAPP;       141
@@ -1066,6 +1325,7 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 05-FEB-23;Download da Fatura Realizado;WHATSAPP;         8
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 05-FEB-23;Processado com suscesso     ;E-MAIL  ;        10
+06-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
 06-FEB-23;Em Processamento            ;WHATSAPP;        52
 06-FEB-23;Download da Fatura Realizado;WHATSAPP;         3
 06-FEB-23;Processado com suscesso     ;E-MAIL  ;         4
@@ -1073,11 +1333,16 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 06-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 06-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;     18917
-07-FEB-23;Em Processamento            ;WHATSAPP;       219
+07-FEB-23;Download da Fatura Realizado;WHATSAPP;        12
 07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
-07-FEB-23;Em Processamento            ;WHATSAPP;         3
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;         7
-07-FEB-23;Aguardando Fatura           ;E-MAIL  ;      2781
+07-FEB-23;Em Processamento            ;E-MAIL  ;       906
+07-FEB-23;Processado com suscesso     ;WHATSAPP;         3
+07-FEB-23;Processado com suscesso     ;WHATSAPP;        11
+07-FEB-23;Em Processamento            ;WHATSAPP;         2
+07-FEB-23;Em Processamento            ;E-MAIL  ;    109019
+07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+07-FEB-23;Em Processamento            ;E-MAIL  ;      2718
+07-FEB-23;Aguardando Fatura           ;E-MAIL  ;        63
 07-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        12
 07-FEB-23;Processado com suscesso     ;WHATSAPP;        10
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         2
@@ -1087,14 +1352,72 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 07-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 07-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
 07-FEB-23;Processado com suscesso     ;WHATSAPP;         1
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;      3009
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;      5502
-08-FEB-23;Em Processamento            ;WHATSAPP;         9
+08-FEB-23;Em Processamento            ;E-MAIL  ;      2908
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        37
+08-FEB-23;Em Processamento            ;E-MAIL  ;       553
+08-FEB-23;Processado com suscesso     ;WHATSAPP;         1
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        99
+08-FEB-23;Em Processamento            ;E-MAIL  ;         1
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         2
 08-FEB-23;Aguardando Fatura           ;E-MAIL  ;         9
-08-FEB-23;Aguardando Processamento    ;WHATSAPP;        12
-08-FEB-23;Aguardando Fatura           ;E-MAIL  ;       242
+08-FEB-23;Aguardando Fatura           ;E-MAIL  ;        10
+08-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;        29
 08-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
 09-FEB-23;Em Processamento            ;WHATSAPP;       438
 09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        14
+09-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;        62
+09-FEB-23;Em Processamento            ;E-MAIL  ;         2
+09-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
 09-FEB-23;Processado com suscesso     ;E-MAIL  ;         1
+09-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        84
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         4
+10-FEB-23;Em Processamento            ;E-MAIL  ;        92
+10-FEB-23;Em Processamento            ;E-MAIL  ;       134
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        34
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         6
+10-FEB-23;Em Processamento            ;WHATSAPP;        33
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        13
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;      3346
+10-FEB-23;Em Processamento            ;E-MAIL  ;         1
+10-FEB-23;Em Processamento            ;E-MAIL  ;      3873
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;       253
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;        21
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         2
+10-FEB-23;Processado com suscesso     ;WHATSAPP;        26
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;       465
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         5
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         7
+10-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         1
+10-FEB-23;Download da Fatura Realizado;WHATSAPP;        28
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;        40
+10-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+10-FEB-23;Processado com suscesso     ;E-MAIL  ;         5
+11-FEB-23;Processado com suscesso     ;WHATSAPP;      7823
+11-FEB-23;Em Processamento            ;E-MAIL  ;        95
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;       236
+11-FEB-23;Em Processamento            ;E-MAIL  ;       514
+11-FEB-23;Em Processamento            ;WHATSAPP;         4
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;       133
+11-FEB-23;Em Processamento            ;WHATSAPP;        31
+11-FEB-23;Em Processamento            ;WHATSAPP;       100
+11-FEB-23;Processado com suscesso     ;E-MAIL  ;         2
+11-FEB-23;Processado com suscesso     ;WHATSAPP;         3
+11-FEB-23;Aguardando Fatura           ;E-MAIL  ;         1
+11-FEB-23;Em Processamento            ;WHATSAPP;    157018
+12-FEB-23;Em Processamento            ;WHATSAPP;         8
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;        12
+12-FEB-23;Em Processamento            ;WHATSAPP;        12
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       520
+12-FEB-23;Aguardando Fatura           ;E-MAIL  ;       368
+12-FEB-23;Em Processamento            ;WHATSAPP;         3
+12-FEB-23;Em Processamento            ;E-MAIL  ;         1
+13-FEB-23;Download da Fatura Realizado;WHATSAPP;         1
+14-FEB-23;Aguardando Fatura           ;E-MAIL  ;        37
+14-FEB-23;Processado com suscesso     ;WHATSAPP;         1
