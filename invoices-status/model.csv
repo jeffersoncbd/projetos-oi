@@ -2,6 +2,9 @@ VENCIMENT;STATUS                      ;TIPO    ;QUANTIDADE
 27-JAN-23;Em Processamento            ;WHATSAPP;         2
 27-JAN-23;Em Processamento            ;WHATSAPP;         3
 30-JAN-23;Em Processamento            ;WHATSAPP;       190
+30-JAN-23;Carregada                   ;WHATSAPP;       190
+30-JAN-23;Aguardando Processamento    ;E-MAIL  ;       190
+30-JAN-23;Carregada                   ;E-MAIL  ;       190
 30-JAN-23;Em Processamento            ;WHATSAPP;       178
 30-JAN-23;Processado com suscesso     ;E-MAIL  ;      1188
 31-JAN-23;Aguardando Fatura           ;E-MAIL  ;        14

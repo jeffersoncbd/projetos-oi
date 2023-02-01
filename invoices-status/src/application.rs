@@ -1,10 +1,21 @@
-use crate::{configurations::Configurations, csv::read_csv, spreadsheet};
+use crate::{configurations::Configurations, csv::read_csv, report};
+use spreadsheet_maker::Spreadsheet;
 
 pub fn run(configurations: Configurations) -> Result<(), &'static str> {
-    let _spreadsheet = {
+    let mut spreadsheet = Spreadsheet::new(format!(
+        "Verificação E-Mail Seguro - {}",
+        configurations.filter.to_uppercase()
+    ));
+    {
         let structured_rows = read_csv(&configurations.csv_path, &configurations.filter)?;
-        spreadsheet::mount(structured_rows)
+        report::insert(structured_rows, &mut spreadsheet);
     };
+    let output = format!(
+        "{}/{}.png",
+        configurations.output_path, configurations.filter
+    );
+
+    spreadsheet.save_png(&output.as_str())?;
 
     Ok(())
 }

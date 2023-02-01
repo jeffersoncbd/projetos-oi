@@ -9,6 +9,14 @@ impl PartialEq for Date {
         self.string == other.string
     }
 }
+impl Clone for Date {
+    fn clone(&self) -> Self {
+        Self {
+            string: self.string.clone(),
+            utc: self.utc.clone(),
+        }
+    }
+}
 
 const MONTHS: [&str; 12] = [
     "jan", "feb", "mar", "apr", "may", "jun", "jul", "ago", "set", "out", "nov", "dec",

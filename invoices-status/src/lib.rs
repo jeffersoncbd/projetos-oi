@@ -2,5 +2,5 @@ pub mod application;
 pub mod configurations;
 
 mod csv;
-mod spreadsheet;
+mod report;
 mod tools;
