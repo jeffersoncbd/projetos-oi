@@ -3,6 +3,7 @@ pub struct Configurations {
     pub filter: String,
     pub output_path: String,
     pub telegram_token: String,
+    pub destiny_id: String,
 }
 impl Configurations {
     pub fn from(mut args: impl Iterator<Item = String>) -> Result<Configurations, &'static str> {
@@ -14,6 +15,7 @@ impl Configurations {
                 filter: String::from(""),
                 output_path: String::from(""),
                 telegram_token: String::from(""),
+                destiny_id: String::from(""),
             });
         }
 
@@ -43,11 +45,19 @@ impl Configurations {
             None => return Err("Informe to token do telegram (parâmetro 4)"),
         };
 
+        let destiny_id = match args.next() {
+            Some(token) => token,
+            None => {
+                return Err("Informe o ID da conversa que irá receber o relatório (parâmetro 4)")
+            }
+        };
+
         Ok(Configurations {
             csv_path,
             filter,
             output_path,
             telegram_token,
+            destiny_id,
         })
     }
 }

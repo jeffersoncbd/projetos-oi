@@ -26,7 +26,7 @@ pub fn run(configurations: Configurations) -> Result<(), &'static str> {
 
     telegram.send_image(ImageMessage {
         image_path: &image_path,
-        to: "5828637972",
+        to: &configurations.destiny_id.as_str(),
     })?;
 
     Ok(())
