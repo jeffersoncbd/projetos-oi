@@ -2,6 +2,7 @@ pub struct Configurations {
     pub csv_path: String,
     pub filter: String,
     pub output_path: String,
+    pub telegram_token: String,
 }
 impl Configurations {
     pub fn from(mut args: impl Iterator<Item = String>) -> Result<Configurations, &'static str> {
@@ -9,9 +10,10 @@ impl Configurations {
 
         if cfg!(debug_assertions) {
             return Ok(Configurations {
-                csv_path: String::from("model.csv"),
-                filter: String::from("whatsapp"),
-                output_path: String::from("/home/jefferson/projects/oi/ged-parser/"),
+                csv_path: String::from(""),
+                filter: String::from(""),
+                output_path: String::from(""),
+                telegram_token: String::from(""),
             });
         }
 
@@ -31,13 +33,21 @@ impl Configurations {
 
         let output_path = match args.next() {
             Some(path) => path,
-            None => return Err("Defina a pasta onde será gerado os arquivos de output"),
+            None => {
+                return Err("Defina a pasta onde será gerado os arquivos de output (parâmetro 3)")
+            }
+        };
+
+        let telegram_token = match args.next() {
+            Some(token) => token,
+            None => return Err("Informe to token do telegram (parâmetro 4)"),
         };
 
         Ok(Configurations {
             csv_path,
             filter,
             output_path,
+            telegram_token,
         })
     }
 }
