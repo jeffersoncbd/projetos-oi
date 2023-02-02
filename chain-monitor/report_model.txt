@@ -21,3 +21,5 @@ Fim 26/01/2023 03:21:55 BCV
 
 icspx07
 ora_dgrw_pos_snapshot
+
+ps -ef
