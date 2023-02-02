@@ -23,3 +23,10 @@ icspx07
 ora_dgrw_pos_snapshot
 
 ps -ef
+
+1)script ora_dgrw_snapshot_to_physical - job RAIDC_SNP_CONV_SNAPSHOT_TO_PHYSICAL
+2)script ora_dgrw_recover_manager - job RAIDC_SNP_START_RECOVER_MANAGE
+3)script ora_dgrw_physical_apply_until_target- job RAIDC_SNP_PHYSICAL_APPLY_UNTIL_TARGET
+4)script ora_dgrw_recover_manager- job RAIDC_SNP_STOP_RECOVER_MANAGER
+5)script ora_dgrw_physical_to_snapshot- job RAIDC_SNP_CONV_PHYSICAL_TO_SNAPSHOT
+6)script ora_dgrw_pos_snapshot- job RAIDC_SNP_POS_SNAPSHOT_CONVERT
