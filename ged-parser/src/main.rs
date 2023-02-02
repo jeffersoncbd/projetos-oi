@@ -27,6 +27,6 @@ fn main() {
 
     printer::comparative(&general_spreadsheet, &comparative_spreadsheet, &args[2]);
 
-    telegram::send_image(format!("{}.png", &args[2]), "GENERAL_CHAT_ID");
+    // telegram::send_image(format!("{}.png", &args[2]), "GENERAL_CHAT_ID");
     telegram::send_image(String::from("comparison.png"), "COMPARATIVE_CHAT_ID");
 }
