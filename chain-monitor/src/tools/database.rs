@@ -24,7 +24,9 @@ pub fn find_job_date<'a>(
                 continue;
             }
         }
-        if log[column].trim() == "" || log["PARAMETRO"].trim() != configurations.job_name {
+        if log[column].trim() == ""
+            || log["PARAMETRO"].trim() != configurations.job_name_in_database
+        {
             continue;
         }
 
@@ -52,7 +54,7 @@ pub fn find_job_date<'a>(
         None => {
             return Err(string_to_static(format!(
                 "O job {} não foi encontrado.",
-                configurations.job_name
+                configurations.job_name_in_control
             )))
         }
     }

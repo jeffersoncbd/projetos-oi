@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.23"
+roxmltree = "0.18.0"
+xmlparser = "0.13.5"
