@@ -6,6 +6,10 @@ response=$(curl -I "${endpoint}" 2>&1)
 status_code=$(echo "${response}" | grep HTTP/ | awk -F' ' '{print $2}')
 
 if [ "${status_code}" -ne 200 ]; then
+    /webaplic/.bin/tg -845994286 "⚠️ ATENÇÃO ⚠️"
+    /webaplic/.bin/tg -845994286 "Falha na conexão com link da FAST"
+    /webaplic/.bin/tg -845994286 "Código HTTP retornado: ${status_code}"
+
     echo "${response}" >&2
     exit 1
 fi
