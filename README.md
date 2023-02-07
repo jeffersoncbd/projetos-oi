@@ -28,6 +28,7 @@ Antigo `GED Parser`, este é o relatório `Verificação E-mail Seguro` que veri
 3. Criava-se uma planilha dinâmica para resumir os dados
 4. Era tirado 2 prints sendo um com os dados de `E-mail` e outro com dados de `Whatsapp`
 5. Enviava-se os prints para o grupo de gerentes do Whatsapp.
+
 Agora o processo é 100% autonomo graças à duas libs que desenvolvi:
 - [image-builder](https://crates.io/crates/image-builder): possibilita escrever textos num .png usando Rust.
 - [spreadsheet-maker](https://crates.io/crates/spreadsheet-maker): uma simulação de Excel sem interface para Rust que utiliza o `image-builder` para gerar .png da planilha criada ou simplesmente exportar um .csv.
