@@ -32,6 +32,7 @@ Antigo `GED Parser`, este é o relatório `Verificação E-mail Seguro` que veri
 Agora o processo é 100% autonomo graças à duas libs que desenvolvi:
 - [image-builder](https://crates.io/crates/image-builder): possibilita escrever textos num .png usando Rust.
 - [spreadsheet-maker](https://crates.io/crates/spreadsheet-maker): uma simulação de Excel sem interface para Rust que utiliza o `image-builder` para gerar .png da planilha criada ou simplesmente exportar um .csv.
+
 Depois de gerado os .png o projeto envia eles utilizando a lib [tg-api](https://crates.io/crates/tg-api).
 
 ### SCAR
