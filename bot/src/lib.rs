@@ -12,7 +12,7 @@ pub fn run(
 
     let command_or_id = match args.next() {
         Some(arg) => arg,
-        None => return Err("O primeiro parâmetro deve ser informado."),
+        None => return Err("Use \"watch\" ou informe o ID destinatário (em $1)."),
     };
 
     match command_or_id.as_str() {
@@ -67,7 +67,7 @@ pub fn run(
                 "-i" => {
                     let image_path = match args.next() {
                         Some(arg) => arg,
-                        None => return Err("Informe o caminho da imagem no terceiro parâmetro."),
+                        None => return Err("Informe o caminho da imagem (em $3)."),
                     };
                     telegram.send_image(ImageMessage {
                         image_path: &image_path,
@@ -77,7 +77,7 @@ pub fn run(
                 "-f" => {
                     let file_path = match args.next() {
                         Some(arg) => arg,
-                        None => return Err("Informe o caminho do arquivo no terceiro parâmetro."),
+                        None => return Err("Informe o caminho do arquivo (em $3)."),
                     };
                     telegram.send_file(FileMessage {
                         file_path: &file_path,
@@ -91,7 +91,9 @@ pub fn run(
                     })?;
                 }
             },
-            None => return Err("Entre com uma mensagem ou flag no segundo parâmetro."),
+            None => return Err(
+                "Entre com uma mensagem ou flag (em $2)\n  -i  para imagens\n  -f  para arquivos).",
+            ),
         }, // _ => return Err("O comando informado não é aceito, utilize:\n- message\n- image\n- watch"),
     };
     Ok(())
