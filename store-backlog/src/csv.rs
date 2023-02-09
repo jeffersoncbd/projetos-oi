@@ -1,6 +1,6 @@
 use std::fs;
 
-use chrono::Utc;
+use chrono::Local;
 
 use crate::tools::string_to_static;
 
@@ -39,8 +39,8 @@ pub fn structure_backlog(csv: &String) -> Result<String, &'static str> {
 }
 
 pub fn save(content: String, destiny_path: &String) -> Result<(), &'static str> {
-    let now = Utc::now();
-    let file_name = format!("{}.csv", now.to_string());
+    let now = Local::now();
+    let file_name = format!("{}.csv", now.format("%Y-%m-%dT%H:%M"));
     if let Err(error) = fs::write(format!("{}/{}", destiny_path, file_name), content) {
         let feedback = format!(
             "Falha ao tentar ao tentar salvar o arquivo na pasta \"{}\" - {}",
