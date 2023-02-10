@@ -1,3 +1,4 @@
+mod cases;
 mod configurations;
 mod tools;
 

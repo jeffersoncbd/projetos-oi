@@ -1,5 +1,6 @@
-use crate::Configurations;
+use crate::{cases::history, Configurations};
 
-pub fn run(_configurations: Configurations) -> Result<(), &'static str> {
+pub fn run(configurations: Configurations) -> Result<(), &'static str> {
+    let executions = history::read(&configurations.history_folder_path)?;
     Ok(())
 }
