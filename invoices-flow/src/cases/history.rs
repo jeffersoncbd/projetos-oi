@@ -29,5 +29,7 @@ pub fn read(path: &String) -> Result<Vec<ExecutionData>, &'static str> {
         let content = fs::read_to_string(file_path).unwrap();
         files.push(ExecutionData { date, content });
     }
+
+    files.sort_by(|a, b| a.date.cmp(&b.date));
     Ok(files)
 }
