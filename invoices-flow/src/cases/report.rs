@@ -37,7 +37,7 @@ impl<'a> Report<'a> {
         }
 
         let now = Utc::now();
-        for i in 1..11 {
+        for i in 1..8 {
             let row_date = now.checked_add_days(Days::new(i)).unwrap();
             row.push(row_date);
         }
