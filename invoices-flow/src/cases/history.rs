@@ -8,6 +8,14 @@ pub struct ExecutionData {
     pub date: DateTime<Utc>,
     pub content: String,
 }
+impl Clone for ExecutionData {
+    fn clone(&self) -> Self {
+        Self {
+            date: self.date.clone(),
+            content: self.content.clone(),
+        }
+    }
+}
 
 fn file_name_to_date(file_name: &str) -> DateTime<Utc> {
     let year = file_name[..4].parse().unwrap();
@@ -19,7 +27,7 @@ fn file_name_to_date(file_name: &str) -> DateTime<Utc> {
         .unwrap()
 }
 
-pub fn read(path: &String) -> Result<Vec<ExecutionData>, &'static str> {
+pub fn read(path: &String, executions_amount: u32) -> Result<Vec<ExecutionData>, &'static str> {
     let mut files = Vec::new();
     let dir = match fs::read_dir(path) {
         Ok(path) => path,
@@ -39,5 +47,13 @@ pub fn read(path: &String) -> Result<Vec<ExecutionData>, &'static str> {
     }
 
     files.sort_by(|a, b| a.date.cmp(&b.date));
-    Ok(files)
+
+    let mut executions = Vec::new();
+    for (i, execution) in files.iter().enumerate() {
+        if i as i32 > files.len() as i32 - executions_amount as i32 - 1 {
+            executions.push(execution.clone())
+        }
+    }
+
+    Ok(executions)
 }

@@ -10,7 +10,10 @@ use crate::{
 
 pub fn run(configurations: Configurations) -> Result<(), &'static str> {
     let tg = telegram::new_client(configurations.telegram_token);
-    let executions = history::read(&configurations.history_folder_path)?;
+    let executions = history::read(
+        &configurations.history_folder_path,
+        configurations.executions_amount,
+    )?;
     let spreadsheet = report::structure(executions)?;
     let id = Uuid::new_v4();
     let report_path = format!("/tmp/{}.png", id.to_string());

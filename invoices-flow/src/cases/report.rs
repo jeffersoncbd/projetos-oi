@@ -53,7 +53,7 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
     let report = Report::from(&executions);
     let mut sub_report: Vec<String> = Vec::new();
 
-    let mut spreadsheet = Spreadsheet::new(String::from("Relatório de escoamento"));
+    let mut spreadsheet = Spreadsheet::new(String::from("Relatório de escoamento do backlog"));
     spreadsheet.set_margin(10);
 
     let mut factor: usize = 0;
@@ -101,8 +101,6 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
         }
     }
 
-    // 14-FEB-23;Aguardando Fatura           ;E-MAIL  ;        22
-    // 17-FEB-23;Aguardando Fatura Resumida  ;WHATSAPP;         2
     for execution in &executions {
         let rows = execution.content.split("\n");
         for row in rows {
@@ -132,7 +130,7 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
                 column: column_number as u32 + 2,
                 content: String::from(cells[3]),
                 row: row_number + 3,
-            })
+            });
         }
     }
 
