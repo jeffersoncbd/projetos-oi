@@ -2,6 +2,8 @@ use std::fs;
 
 use chrono::{DateTime, TimeZone, Utc};
 
+use crate::tools::string_to_static;
+
 pub struct ExecutionData {
     pub date: DateTime<Utc>,
     pub content: String,
@@ -19,7 +21,13 @@ fn file_name_to_date(file_name: &str) -> DateTime<Utc> {
 
 pub fn read(path: &String) -> Result<Vec<ExecutionData>, &'static str> {
     let mut files = Vec::new();
-    let dir = fs::read_dir(path).unwrap();
+    let dir = match fs::read_dir(path) {
+        Ok(path) => path,
+        Err(error) => {
+            let feedback = format!("Falha ao ler arquivos na pasta \"{}\": {}", path, error);
+            return Err(string_to_static(feedback));
+        }
+    };
     for file in dir {
         let file = file.unwrap();
         let file_name = file.file_name().into_string().unwrap();

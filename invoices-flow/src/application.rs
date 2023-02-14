@@ -3,7 +3,9 @@ use uuid::Uuid;
 
 use crate::{
     cases::{history, report},
-    telegram, Configurations,
+    telegram,
+    tools::string_to_static,
+    Configurations,
 };
 
 pub fn run(configurations: Configurations) -> Result<(), &'static str> {
@@ -13,9 +15,12 @@ pub fn run(configurations: Configurations) -> Result<(), &'static str> {
     let id = Uuid::new_v4();
     let report_path = format!("/tmp/{}.png", id.to_string());
     spreadsheet.save_png(&report_path)?;
-    tg.send_image(ImageMessage {
+    if let Err(error) = tg.send_image(ImageMessage {
         image_path: &report_path,
         to: &configurations.destiny_id.as_str(),
-    })?;
+    }) {
+        let feedback = format!("Telegram: {}", error);
+        return Err(string_to_static(feedback));
+    };
     Ok(())
 }

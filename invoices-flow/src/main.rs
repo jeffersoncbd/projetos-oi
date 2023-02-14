@@ -11,7 +11,7 @@ fn main() {
         }
     };
     if let Err(error) = application::run(configurations) {
-        println!("Erro na aplicação: {error}");
+        eprintln!("Erro na aplicação: {error}");
         process::exit(1);
     };
 }
