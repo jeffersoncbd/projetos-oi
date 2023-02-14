@@ -49,7 +49,7 @@ impl<'a> Report<'a> {
     }
 }
 
-pub fn structure(executions: Vec<ExecutionData>) -> Result<(), &'static str> {
+pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static str> {
     let report = Report::from(&executions);
     let mut sub_report: Vec<String> = Vec::new();
 
@@ -136,7 +136,5 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<(), &'static str> {
         }
     }
 
-    spreadsheet.save_png("report.png")?;
-
-    Ok(())
+    Ok(spreadsheet)
 }
