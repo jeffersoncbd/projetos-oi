@@ -110,7 +110,8 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
                 .column
                 .iter()
                 .position(|c| c.to_string() == execution.date.to_string())
-                .unwrap();
+                .unwrap() as u32
+                + 2;
 
             let row_number = report.headers.row.iter().position(|r| {
                 r.format("%d-%b-%y").to_string().to_uppercase() == String::from(cells[0])
@@ -123,14 +124,29 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
                 .iter()
                 .position(|t| t == &format!("{} - {}", cells[2], cells[1]))
                 .unwrap();
-            let row_number = ((factor * rows_len) + factor + row_number) as u32;
+            let row_number = ((factor * rows_len) + factor + row_number) as u32 + 3;
 
             spreadsheet.add_in_cell(Cell {
                 color: None,
-                column: column_number as u32 + 2,
+                column: column_number,
                 content: String::from(cells[3]),
-                row: row_number + 3,
+                row: row_number,
             });
+
+            let value: u64 = spreadsheet
+                .get_cell_value((column_number, row_number))
+                .parse()
+                .unwrap();
+
+            let mut color: Option<[u8; 4]> = None;
+            if value > 2000 {
+                color = Some([255, 0, 0, 255]);
+            } else if value > 1000 {
+                color = Some([255, 153, 0, 255]);
+            } else if value > 500 {
+                color = Some([255, 255, 0, 255]);
+            }
+            spreadsheet.set_cell_color((column_number, row_number), color);
         }
     }
 

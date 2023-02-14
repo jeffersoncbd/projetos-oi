@@ -600,9 +600,9 @@ dependencies = [
 
 [[package]]
 name = "image-builder"
-version = "0.3.3"
+version = "0.3.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "723e6f1651b70e05ed825e3de6307d2dfac2299ad234b9b7f9a47ec2231f1389"
+checksum = "35def97b4d9f5689234073cf6b35626fa4e5b4f2b199faa0450cb3c415de34ea"
 dependencies = [
  "image",
  "imageproc",
@@ -1380,9 +1380,9 @@ dependencies = [
 
 [[package]]
 name = "spreadsheet-maker"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d40440d5f074f05304e07e437a9e7aa755368274eb3ad7c15d9440f2b23d8e9"
+checksum = "865c1c713593a10bd770fc19c63ab528df787c7a5c34d0b5f3b527ef646626b4"
 dependencies = [
  "image-builder",
 ]

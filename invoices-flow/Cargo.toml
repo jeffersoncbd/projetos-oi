@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.23"
-spreadsheet-maker = "0.1.0"
+spreadsheet-maker = "0.2.0"
 tg-api = "0.4.3"
 openssl = { version = "0.10", features = ["vendored"] }
 
