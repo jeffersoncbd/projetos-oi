@@ -6,9 +6,7 @@ data='{"camArquivoQrcode": "NAS:DAAEQAQ51CC5DFEF1A653FB73EE20738", "dataDeExpira
 response=$(curl --insecure --request POST --url "${endpoint}" --header "${header}" --data "${data}"2>&1)
 
 if [[ "${response}" != *"\"type\":\"success\""* ]]; then
-    ./tg -845994286 "⚠️ ATENÇÃO ⚠️"
-    ./tg -845994286 "Falha na conexão com link do GED360 QRCode"
-    ./tg -845994286 "Resposta do endpoint:\n${response}"
+    ./tg -845994286 $'⚠️ ATENÇÃO ⚠️\nFalha na conexão com link do GED360 QRCode\nResposta do endpoint:\n'"${response}"
 else
-    ./tg -845994286 "✅ GED360 [QRCode] retornou sucesso."
+    ./tg -845994286 "✅ Link do GED360 QRCode retornou sucesso."
 fi
