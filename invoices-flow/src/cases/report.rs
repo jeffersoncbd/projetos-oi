@@ -178,6 +178,7 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
         row: legend_row,
     });
 
+    spreadsheet.set_column_width(4, 100 as u32);
     spreadsheet.set_cell_color((2, legend_row), Some([255, 0, 0, 255]));
     spreadsheet.set_cell_color((3, legend_row), Some([255, 153, 0, 255]));
     spreadsheet.set_cell_color((4, legend_row), Some([255, 255, 0, 255]));
