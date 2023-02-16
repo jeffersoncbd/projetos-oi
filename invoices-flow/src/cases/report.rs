@@ -150,5 +150,43 @@ pub fn structure(executions: Vec<ExecutionData>) -> Result<Spreadsheet, &'static
         }
     }
 
+    spreadsheet.set_cell(Cell {
+        color: None,
+        column: 1,
+        content: String::from("Legenda:"),
+        row: ((factor * rows_len) + factor) as u32 + 1,
+    });
+    spreadsheet.set_cell(Cell {
+        color: None,
+        column: 2,
+        content: String::from("> 2000"),
+        row: ((factor * rows_len) + factor) as u32 + 1,
+    });
+    spreadsheet.set_cell_color(
+        (2, ((factor * rows_len) + factor) as u32 + 1),
+        Some([255, 0, 0, 255]),
+    );
+    // } else if value > 1000 {
+    //    color = Some([255, 153, 0, 255]);
+    //} else if value > 500 {
+    //    color = Some([255, 255, 0, 255]);
+    spreadsheet.set_cell(Cell {
+        color: None,
+        column: 3,
+        content: String::from("> 1000"),
+        row: ((factor * rows_len) + factor) as u32 + 1,
+    });
+    spreadsheet.set_cell_color(
+        (2, ((factor * rows_len) + factor) as u32 + 1),
+        Some([255, 0, 0, 255]),
+    );
+
+    spreadsheet.set_cell(Cell {
+        color: None,
+        column: 4,
+        content: String::from("> 500"),
+        row: ((factor * rows_len) + factor) as u32 + 1,
+    });
+
     Ok(spreadsheet)
 }
