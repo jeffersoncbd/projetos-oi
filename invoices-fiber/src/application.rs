@@ -1,5 +1,7 @@
-use crate::Configurations;
+use crate::{tools::csv, Configurations};
 
-pub fn run(_configurations: Configurations) -> Result<(), &'static str> {
+pub fn run(configurations: Configurations) -> Result<(), &'static str> {
+    let _csv_content = csv::read(&configurations.csv_path)?;
+
     Ok(())
 }
