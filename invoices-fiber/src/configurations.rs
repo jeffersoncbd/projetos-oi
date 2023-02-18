@@ -6,11 +6,11 @@ impl Configurations {
     pub fn from(mut args: impl Iterator<Item = String>) -> Result<Configurations, &'static str> {
         args.next();
 
-        /* if cfg!(debug_assertions) {
+        if cfg!(debug_assertions) {
             return Ok(Configurations {
-                csv_path: String::from(""),
+                csv_path: String::from("model.csv"),
             });
-        } */
+        }
 
         let csv_path = match args.next() {
             Some(path) => {
