@@ -1,32 +1,37 @@
 
-DATA_VENC;STATUS_NOTIFICACAO                                                                                                                                    ;TIPO_PRO;  COUNT(1)
-13-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1007
-13-FEB-23;Action N?o Existente                                                                                                                                  ;E-mail  ;         1
-14-FEB-23;Action N?o Existente                                                                                                                                  ;E-mail  ;         1
-17-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      1899
-19-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1183
-20-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;       701
-15-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1641
-16-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1472
-18-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      1927
-17-FEB-23;Aguardando Processamento                                                                                                                              ;E-mail  ;         2
-13-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      2954
-20-FEB-23;Action N?o Existente                                                                                                                                  ;E-mail  ;         1
-21-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;         2
-13-FEB-23;Action N?o Existente                                                                                                                                  ;Whatsapp;         1
-21-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;         3
-16-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      2529
-18-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1058
-17-FEB-23;Aguardando QRCODE                                                                                                                                     ;        ;         7
-21-FEB-23;Aguardando Definir Destinatario                                                                                                                       ;        ;         1
-17-FEB-23;Aguardando Definir Destinatario                                                                                                                       ;        ;        33
-21-FEB-23;Aguardando QRCODE                                                                                                                                     ;        ;         1
-17-FEB-23;Aguardando Processamento                                                                                                                              ;Whatsapp;         2
-14-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1658
-14-FEB-23;Action N?o Existente                                                                                                                                  ;Whatsapp;         2
-15-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      3014
-17-FEB-23;Em Processamento                                                                                                                                      ;Whatsapp;      1083
-19-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      2094
-14-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;      4148
-20-FEB-23;Em Processamento                                                                                                                                      ;E-mail  ;       650
-20-FEB-23;Action N?o Existente                                                                                                                                  ;Whatsapp;         1
+DATA_VENCI;STATUS_NOTIFICACAO                                                                                                                                    ;TIPO_PRO;  COUNT(1)
+19/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;      1404
+20/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;       820
+25/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;       933
+23/02/2023;Aguardando QRCODE                                                                                                                                     ;        ;         8
+23/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      1756
+23/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;      1048
+21/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;        50
+27/02/2023;Aguardando Definir Destinatario                                                                                                                       ;        ;         3
+23/02/2023;Aguardando Processamento                                                                                                                              ;Whatsapp;         1
+20/02/2023;Action N?o Existente                                                                                                                                  ;E-mail  ;         1
+21/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      2288
+24/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      1921
+27/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;      1001
+21/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;      1234
+24/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;        43
+24/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;      1162
+19/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;        20
+25/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;        25
+22/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      2374
+26/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;       900
+27/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;        14
+27/02/2023;Aguardando Processamento                                                                                                                              ;Whatsapp;      1070
+19/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      2758
+27/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;        14
+23/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;        44
+23/02/2023;Aguardando Definir Destinatario                                                                                                                       ;        ;        49
+26/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;       707
+20/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;        30
+27/02/2023;Aguardando QRCODE                                                                                                                                     ;        ;         1
+20/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      1692
+20/02/2023;Action N?o Existente                                                                                                                                  ;Whatsapp;         1
+22/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;      1399
+25/02/2023;Em Processamento                                                                                                                                      ;E-mail  ;      1593
+26/02/2023;Em Processamento                                                                                                                                      ;Whatsapp;       963
+22/02/2023;Aguardando Processamento                                                                                                                              ;E-mail  ;       115

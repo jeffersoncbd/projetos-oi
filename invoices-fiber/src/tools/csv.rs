@@ -9,7 +9,7 @@ pub fn read(path: &String) -> Result<String, &'static str> {
         }
     };
 
-    Ok(content)
+    Ok(content.replace("N?o", "Não"))
 }
 
 pub struct Row<'a> {
@@ -24,7 +24,8 @@ pub fn estruture(csv_content: &String) -> Vec<Row> {
 
     let rows: Vec<&str> = csv_content.split("\n").filter(|r| !r.is_empty()).collect();
     for row in &rows[1..] {
-        let cells: Vec<&str> = row.split(";").map(|c| c.trim()).collect();
+        let mut cells: Vec<&str> = row.split(";").map(|c| c.trim()).collect();
+        cells[2] = if cells[2] == "" { "Sem tipo" } else { cells[2] };
         csv.push(Row {
             data_venc: cells[0],
             status_notificacao: cells[1],
