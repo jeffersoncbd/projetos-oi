@@ -319,7 +319,12 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
     }
 
     let mut spreadsheets = Vec::new();
-    for (_, report) in reports.reports {
+    for (report_type, report) in reports.reports {
+        if cfg!(debug_assertions) {
+            let output_path = format!("{}.png", report_type);
+            report.spreadsheet.save_png(&output_path).unwrap();
+            continue;
+        }
         spreadsheets.push(report.spreadsheet)
     }
     spreadsheets
