@@ -117,6 +117,9 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
         let row_headers_column_number = 1;
         let column_headers_row_number = 1;
 
+        let total_column_number = reports.column_headers.len() + 2;
+        let total_row_number = report.rows.len() + 2;
+
         // Imprime todos os títulos das colunas
         for (i, header) in reports.column_headers.iter().enumerate() {
             let column_number = i as u32 + 2;
@@ -128,6 +131,10 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
             });
             report.spreadsheet.set_column_width(i + 2, 80);
         }
+        report
+            .spreadsheet
+            .set_row_custom_font(column_headers_row_number as usize, "bold");
+
         // Ajusta largura da coluna de títulos
         report
             .spreadsheet
@@ -157,6 +164,41 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
                         .set_row_color(row_number as usize, Some([255, 255, 0, 255]));
                 };
             };
+        }
+
+        // Imprime título da coluna Total Geral
+        report.spreadsheet.set_cell(Cell {
+            column: total_column_number as u32,
+            row: column_headers_row_number as u32,
+            content: String::from("TOTAL GERAL"),
+            color: None,
+        });
+        // Formata coluna Total Geral
+        {
+            report
+                .spreadsheet
+                .set_column_width(total_column_number, 110);
+            report
+                .spreadsheet
+                .set_column_custom_font(total_column_number, "bold");
+            report
+                .spreadsheet
+                .set_column_font_size(total_column_number, 16);
+        }
+
+        // Imprime título da linha TOTAL GERAL
+        report.spreadsheet.set_cell(Cell {
+            column: row_headers_column_number as u32,
+            row: total_row_number as u32,
+            content: String::from("TOTAL GERAL"),
+            color: None,
+        });
+        // Formata linha Total Geral
+        {
+            report
+                .spreadsheet
+                .set_row_custom_font(total_row_number, "bold");
+            report.spreadsheet.set_row_font_size(total_row_number, 16);
         }
 
         if report_type == &"Sem tipo" {
@@ -221,6 +263,11 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
                 ),
                 Some([0, 176, 80, 255]),
             );
+            report
+                .spreadsheet
+                .set_row_custom_font(backlog_row_number, "bold");
+            report.spreadsheet.set_row_font_size(backlog_row_number, 18);
+            report.spreadsheet.set_row_height(backlog_row_number, 24);
         }
         // Formata total NOTIFICATION
         {
@@ -238,6 +285,15 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
                 ),
                 Some([255, 255, 0, 255]),
             );
+            report
+                .spreadsheet
+                .set_row_custom_font(notification_row_number, "bold");
+            report
+                .spreadsheet
+                .set_row_font_size(notification_row_number, 18);
+            report
+                .spreadsheet
+                .set_row_height(notification_row_number, 24);
         }
     }
 
@@ -246,9 +302,6 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
         report.spreadsheet.set_margin(10);
 
         // ###################### POSIÇÕES DA TABELA ###################### //
-        let row_headers_column_number: usize = 1;
-        let column_headers_row_number: usize = 1;
-
         let total_column_number = reports.column_headers.len() + 2;
         let total_row_number = report.rows.len() + 2;
 
@@ -275,13 +328,6 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
             color: None,
         });
 
-        // Imprime título da coluna Total Geral
-        report.spreadsheet.set_cell(Cell {
-            column: total_column_number as u32,
-            row: column_headers_row_number as u32,
-            content: String::from("TOTAL GERAL"),
-            color: None,
-        });
         // Adiciona total da linha atual na coluna Total Geral
         report.spreadsheet.add_in_cell(Cell {
             column: total_column_number as u32,
@@ -289,18 +335,7 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
             content: String::from(row.count),
             color: None,
         });
-        // Formata coluna Total Geral
-        report
-            .spreadsheet
-            .set_column_width(total_column_number, 110);
 
-        // Imprime título da linha TOTAL GERAL
-        report.spreadsheet.set_cell(Cell {
-            column: row_headers_column_number as u32,
-            row: total_row_number as u32,
-            content: String::from("TOTAL GERAL"),
-            color: None,
-        });
         // Adiciona total da coluna atual na linha Total Geral
         report.spreadsheet.add_in_cell(Cell {
             column: this_column_number,
