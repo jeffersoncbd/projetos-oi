@@ -6,10 +6,11 @@ use crate::{
 pub fn run(configurations: Configurations) -> Result<(), &'static str> {
     let _tg = telegram::new_client(configurations.telegram_token);
 
-    let csv_content = csv::read(&configurations.csv_path)?;
-    {
+    let _spreadsheets = {
+        let csv_content = csv::read(&configurations.csv_path)?;
         let structured_csv = csv::estruture(&csv_content);
-        report::print(structured_csv);
-    }
+        report::mount(structured_csv)
+    };
+
     Ok(())
 }

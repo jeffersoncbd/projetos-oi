@@ -108,7 +108,7 @@ fn extract_reports<'a>(rows: &'a Vec<Row>) -> Reports<'a> {
     }
 }
 
-pub fn print(rows: Vec<Row>) {
+pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
     let mut reports = extract_reports(&rows);
 
     for (report_type, report) in &mut reports.reports {
@@ -318,8 +318,9 @@ pub fn print(rows: Vec<Row>) {
         });
     }
 
-    for (report_name, report) in reports.reports {
-        let file_name = format!("{}.png", report_name);
-        report.spreadsheet.save_png(&file_name).unwrap();
+    let mut spreadsheets = Vec::new();
+    for (_, report) in reports.reports {
+        spreadsheets.push(report.spreadsheet)
     }
+    spreadsheets
 }
