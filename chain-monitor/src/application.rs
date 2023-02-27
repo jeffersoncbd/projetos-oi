@@ -8,10 +8,7 @@ pub fn run(configurations: Configurations) -> Result<(), &'static str> {
     let logs = csv::struct_csv(&csv)?;
     let job_date = database::find_job_date(&logs, &configurations)?;
 
-    println!(
-        "O job {} teve {} às {}",
-        configurations.job_name_in_control, configurations.column, job_date
-    );
+    println!("{job_date}");
 
     Ok(())
 }
