@@ -8,6 +8,15 @@ status = OK, ERROR, EXEC
     - Incluir no status caso job tenha saído no código 2
 
 
+Bom dia
+RaidC bloq desbloq  
+Inicio 17:26h
+Finalizado 04:26h
+RAIDC_CMEvaluateEntities4 rodou 50 min acima da estatistica
+Campanha rodando processo de criação de campanha
+Rajada 1ªexecução – 04:26h – 04:33h
+BCV ok
+PCO ok
 
 Bom dia
 Cadeia: PRC_BLOQ_DESBLOQ
