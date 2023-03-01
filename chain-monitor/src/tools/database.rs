@@ -18,16 +18,18 @@ pub fn find_job_date<'a>(
     let mut result: Option<&str> = None;
 
     for log in logs {
-        let column = configurations.column.as_str();
         if let Some(chain) = &configurations.chain {
             if log["CADEIA"].trim() != chain {
                 continue;
             }
         }
-        if log[column].trim() == ""
-            || log["PARAMETRO"].trim() != configurations.job_name_in_database
-        {
+        let column: &str = &configurations.column;
+        if log[column] == "" || log["PARAMETRO"] != configurations.job_name_in_database {
             continue;
+        }
+
+        if column == "STATUS" {
+            return Ok(log[column]);
         }
 
         let date_of_log = str_date_to_utc(log[column]);

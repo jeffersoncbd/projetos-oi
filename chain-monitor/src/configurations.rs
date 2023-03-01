@@ -27,6 +27,7 @@ impl Configurations {
             "Informe o parâmetro de busca ($3):",
             "  -i      Inicio do job",
             "  -f      Fim do job",
+            "  -s      Status do job",
         ]
         .join("\n");
 
@@ -34,6 +35,7 @@ impl Configurations {
             Some(flag) => match flag.as_str() {
                 "-i" => String::from("INICIO"),
                 "-f" => String::from("FIM"),
+                "-s" => String::from("STATUS"),
                 _ => return Err(string_to_static(feedback)),
             },
             None => return Err(string_to_static(feedback)),
