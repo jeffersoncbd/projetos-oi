@@ -20,13 +20,13 @@ pub type Logs<'a> = Vec<HashMap<&'a str, &'a str>>;
 
 pub fn struct_csv(content: &String) -> Result<Logs, &'static str> {
     let rows: Vec<&str> = content.split("\n").collect();
-    let headers: Vec<&str> = rows[0].split(";").into_iter().map(|h| h.trim()).collect();
+    let headers: Vec<&str> = rows[0].split(";").map(|h| h.trim()).collect();
     let mut structured: Logs = Vec::new();
     for (i, row) in rows[2..].iter().enumerate() {
         if row.trim() == "" {
             continue;
         }
-        let cells: Vec<&str> = row.split(";").collect();
+        let cells: Vec<&str> = row.split(";").map(|c| c.trim()).collect();
         if cells.len() != headers.len() {
             let feedback = format!("O .csv é inválido, verifique a linha {}:\n{}", i + 3, row);
             return Err(string_to_static(feedback));
