@@ -25,7 +25,11 @@ pub fn estruture(csv_content: &String) -> Vec<Row> {
     let rows: Vec<&str> = csv_content.split("\n").filter(|r| !r.is_empty()).collect();
     for row in &rows[1..] {
         let mut cells: Vec<&str> = row.split(";").map(|c| c.trim()).collect();
-        cells[2] = if cells[2] == "" { "Sem tipo" } else { cells[2] };
+        cells[2] = if cells[2] == "" {
+            "Nova Fibra"
+        } else {
+            cells[2]
+        };
         csv.push(Row {
             data_venc: cells[0],
             status_notificacao: cells[1],

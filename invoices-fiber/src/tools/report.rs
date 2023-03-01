@@ -65,10 +65,7 @@ fn extract_reports<'a>(rows: &'a Vec<Row>) -> Reports<'a> {
     let mut reports = HashMap::new();
 
     for report_name in report_names {
-        let spreadsheet = Spreadsheet::new(format!(
-            "[Nova Fibra] Relatório de faturas - {}",
-            report_name
-        ));
+        let spreadsheet = Spreadsheet::new(format!("Relatório de faturas - {}", report_name));
         let mut spreadsheet_rows = Vec::new();
         let mut totals = (0, 0);
 
@@ -151,7 +148,7 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
                 color: None,
             });
 
-            if report_type != &"Sem tipo" {
+            if report_type != &"Nova Fibra" {
                 // Pinta de verde ou amarelo se título for backlog ou notification
                 if BACKLOG.contains(&header.to_uppercase().as_str()) {
                     report
@@ -201,7 +198,7 @@ pub fn mount(rows: Vec<Row>) -> Vec<Spreadsheet> {
             report.spreadsheet.set_row_font_size(total_row_number, 16);
         }
 
-        if report_type == &"Sem tipo" {
+        if report_type == &"Nova Fibra" {
             continue;
         }
 
