@@ -29,7 +29,12 @@ pub fn find_job_date<'a>(
         }
 
         if column == "STATUS" {
-            return Ok(log[column]);
+            match log[column] {
+                "OK" => return Ok("finalizado ✅"),
+                "EXEC" => return Ok("executando ⏩"),
+                "ERRO" => return Ok("com erro ⚠️"),
+                _ => return Ok(log[column]),
+            }
         }
 
         let date_of_log = str_date_to_utc(log[column]);
