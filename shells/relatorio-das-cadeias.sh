@@ -40,24 +40,24 @@ r1_line2="Iniciou em ${CHK_LOAD_RAIDC_start}"
 r1_line3="Finalizou em ${DUMMY_RAIDC_EvaluateActions_end}"
 report1="${r1_line1}"$'\n'"${r1_line2}"$'\n'"${r1_line3}"
 
-# --- CADEIA CAMPANHAS AUTOMATICAS --- #
-RAIDC_AutoDistribCampaignGenerator_start=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -i "RAIDC_AutoDistribCampaignGenerator" "--dia=${today}")
-RAIDC_AutoDistribCampaignGenerator_status=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -s "RAIDC_AutoDistribCampaignGenerator" "--dia=${today}")
-r2_line1="🔹 Cadeia: CAMPANHA"
-r2_line2="Iniciou em ${RAIDC_AutoDistribCampaignGenerator_start}"
-r2_line3="No momento está ${RAIDC_AutoDistribCampaignGenerator_status}"
-report2="${r2_line1}"$'\n'"${r2_line2}"$'\n'"${r2_line3}"
-if [ "${RAIDC_AutoDistribCampaignGenerator_start}" == "" ]; then
-    report2="${r2_line1}"$'\n'"⚠️ Ainda não foi iniciada"
-fi
-
 # --- CADEIA RAJADA --- #
 RAIDC_ProcIsencaoRajada_start=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -i "RAIDC_ProcIsencaoRajada" "--dia=${today}" --execucao=1)
 RAIDC_ProcIsencaoRajada_end=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -f "RAIDC_ProcIsencaoRajada" "--dia=${today}" --execucao=1)
-r3_line1="🔹 Cadeia: RAJADA 1ª Execução"
-r3_line2="Iniciou em ${RAIDC_ProcIsencaoRajada_start}"
-r3_line3="Terminou em ${RAIDC_ProcIsencaoRajada_end}"
-report3="${r3_line1}"$'\n'"${r3_line2}"$'\n'"${r3_line3}"
+r2_line1="🔹 Cadeia: RAJADA 1ª Execução"
+r2_line2="Iniciou em ${RAIDC_ProcIsencaoRajada_start}"
+r2_line3="Terminou em ${RAIDC_ProcIsencaoRajada_end}"
+report2="${r2_line1}"$'\n'"${r2_line2}"$'\n'"${r2_line3}"
+
+# --- CADEIA CAMPANHAS AUTOMATICAS --- #
+RAIDC_AutoDistribCampaignGenerator_start=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -i "RAIDC_AutoDistribCampaignGenerator" "--dia=${today}")
+RAIDC_AutoDistribCampaignGenerator_status=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -s "RAIDC_AutoDistribCampaignGenerator" "--dia=${today}")
+r3_line1="🔹 Cadeia: CAMPANHA"
+r3_line2="Iniciou em ${RAIDC_AutoDistribCampaignGenerator_start}"
+r3_line3="No momento está ${RAIDC_AutoDistribCampaignGenerator_status}"
+report2="${r3_line1}"$'\n'"${r3_line2}"$'\n'"${r3_line3}"
+if [ "${RAIDC_AutoDistribCampaignGenerator_start}" == "" ]; then
+    report3="${r3_line1}"$'\n'"⚠️ Ainda não foi iniciada"
+fi
 
 # --- SEND TO TELEGRAM --- #
 ${TG} "${TG_DESTINATARY_ID}" "${report1}"$'\n\n'"${report2}"$'\n\n'"${report3}"
