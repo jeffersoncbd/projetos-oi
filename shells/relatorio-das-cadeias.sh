@@ -1,22 +1,23 @@
 #!/bin/bash
 
 # --------------- Variáveis --------------- #
-PROJECT_FOLDER="/webaplic/bot_status_faturas"
+PROJECT_FOLDER="/apps/raidc/script/operacao-oi/relatorio-cadeias"
 #TG_DESTINATARY_ID="5828637972" # Jefferson
+#TG_DESTINATARY_ID="163185688" # Gabriel
 TG_DESTINATARY_ID="-845994286"
-TG=""
-CSV_FILE="${PROJECT_FOLDER}/control_m_execucoes.csv"
-SQL_FILE="${PROJECT_FOLDER}/queries/control_m_execucoes.sql"
+TG="/apps/raidc/script/operacao-oi/telegram-bot"
+CSV_FILE="${PROJECT_FOLDER}/dados.csv"
+SQL_FILE="${PROJECT_FOLDER}/query.sql"
 XML_FILE="${PROJECT_FOLDER}/RAID_COLLECTIONS.xml"
-CHAIN_MONITOR="${PROJECT_FOLDER}/relatorios/monitor_de_cadeias"
+CHAIN_MONITOR="${PROJECT_FOLDER}/chain-monitor"
 # ----------------------------------------- #
 
 yesterday=$(date -d "yesterday" +'%d/%m/%Y')
 today=$(date +'%d/%m/%Y')
 
 if [ "${1}" == "dev" ]; then
-    #TG_DESTINATARY_ID="5828637972" # Jefferson
-    TG_DESTINATARY_ID="163185688" # Gabriel
+    TG_DESTINATARY_ID="5828637972" # Jefferson
+    #TG_DESTINATARY_ID="163185688" # Gabriel
     PROJECT_FOLDER="/home/jefferson/projects/oi/chain-monitor"
     CHAIN_MONITOR="${PROJECT_FOLDER}/chain-monitor"
     CSV_FILE="${PROJECT_FOLDER}/model.csv"
@@ -26,8 +27,7 @@ if [ "${1}" == "dev" ]; then
     today="30/01/2023"
 else
     # EXECUÇÃO DE QUERY NO BANCO DE DADOS COM SPOOL DE CSV
-    source "${PROJECT_FOLDER}/.credentials"
-    echo "@${SQL_FILE} ${CSV_FILE}" | /oracle/app/product/11.2.0.4/bin/sqlplus -s opuser/${DB_PASS}@prgedbd-p1 > /dev/null
+    echo "@${SQL_FILE} ${CSV_FILE}" | sqlplus -s RC_ADM/'$Cobranca2018#'@rcprd-p1 > /dev/null
     sed -i '1d' "${CSV_FILE}"
     sed -i '2d' "${CSV_FILE}"
 fi
@@ -47,6 +47,9 @@ r2_line1="🔹 Cadeia: CAMPANHA"
 r2_line2="Iniciou em ${RAIDC_AutoDistribCampaignGenerator_start}"
 r2_line3="No momento está ${RAIDC_AutoDistribCampaignGenerator_status}"
 report2="${r2_line1}"$'\n'"${r2_line2}"$'\n'"${r2_line3}"
+if [ "${RAIDC_AutoDistribCampaignGenerator_start}" == "" ]; then
+    report2="${r2_line1}"$'\n'"⚠️ Ainda não foi iniciada"
+fi
 
 # --- CADEIA RAJADA --- #
 RAIDC_ProcIsencaoRajada_start=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XML_FILE}" -i "RAIDC_ProcIsencaoRajada" "--dia=${today}" --execucao=1)
