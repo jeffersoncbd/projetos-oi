@@ -54,7 +54,7 @@ RAIDC_AutoDistribCampaignGenerator_status=$(${CHAIN_MONITOR} "${CSV_FILE}" "${XM
 r3_line1="🔹 Cadeia: CAMPANHA"
 r3_line2="Iniciou em ${RAIDC_AutoDistribCampaignGenerator_start}"
 r3_line3="No momento está ${RAIDC_AutoDistribCampaignGenerator_status}"
-report2="${r3_line1}"$'\n'"${r3_line2}"$'\n'"${r3_line3}"
+report3="${r3_line1}"$'\n'"${r3_line2}"$'\n'"${r3_line3}"
 if [ "${RAIDC_AutoDistribCampaignGenerator_start}" == "" ]; then
     report3="${r3_line1}"$'\n'"⚠️ Ainda não foi iniciada"
 fi
