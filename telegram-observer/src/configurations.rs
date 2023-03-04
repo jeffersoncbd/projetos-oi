@@ -53,8 +53,9 @@ impl Configurations {
                 };
                 allowed_chats.push(parsed);
             }
-            if let Err(_) = fs::metadata(parts[2]) {
-                let feedback = format!("o script \"{}\" não foi encontrado", parts[2]);
+            let script: Vec<&str> = parts[2].split(" ").collect();
+            if let Err(_) = fs::metadata(script[0]) {
+                let feedback = format!("o script \"{}\" não foi encontrado", script[0]);
                 return Err(string_to_static::parse(feedback));
             };
             commands.push(Command {
