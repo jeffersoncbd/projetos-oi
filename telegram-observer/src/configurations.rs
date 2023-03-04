@@ -14,7 +14,7 @@ impl Configurations {
     pub fn from(mut args: impl Iterator<Item = String>) -> Result<Configurations, &'static str> {
         args.next();
 
-        if !cfg!(debug_assertions) {
+        if cfg!(debug_assertions) {
             let commands = vec![Command {
                 name: String::from("/test"),
                 script: String::from(

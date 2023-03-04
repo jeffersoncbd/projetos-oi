@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 string-to-static = "0.1.0"
+tg-api = "0.4.3"
