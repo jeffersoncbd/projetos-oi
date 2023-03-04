@@ -3,5 +3,14 @@
 version = 3
 
 [[package]]
+name = "string-to-static"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f07ae83e65041b9fb44d2383533469c230afc7e7c4d0fe2b0987c94843863f7a"
+
+[[package]]
 name = "telegram-observer"
 version = "0.1.0"
+dependencies = [
+ "string-to-static",
+]

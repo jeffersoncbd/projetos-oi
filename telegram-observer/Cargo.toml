@@ -2,3 +2,6 @@
 name = "telegram-observer"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+string-to-static = "0.1.0"
