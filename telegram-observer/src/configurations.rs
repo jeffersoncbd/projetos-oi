@@ -31,13 +31,13 @@ impl Configurations {
             let parts: Vec<&str> = arg.split("|").collect();
             if parts.len() != 3 {
                 let feedback = [
-                    "A estrutura dos comandos devem ser separadas por \"|\":",
+                    "a estrutura dos comandos devem ser separadas por \"|\":",
                     "   comando|ID,ID,ID|/path/to/script.sh",
                 ];
                 return Err(string_to_static::parse(feedback.join("\n")));
             };
             if parts[0] == "" {
-                return Err("O comando deve ter um nome");
+                return Err("o comando deve ter um nome");
             }
             let mut allowed_chats: Vec<i64> = vec![];
             for id in parts[1].split(",") {
@@ -45,7 +45,7 @@ impl Configurations {
                     Ok(id) => id,
                     Err(_) => {
                         let feedback = [
-                            "A lista de ID's devem ser de números inteiros separados por vírgula:",
+                            "a lista de ID's devem ser de números inteiros separados por vírgula:",
                             "   comando|ID,ID,ID|/path/to/script.sh",
                         ];
                         return Err(string_to_static::parse(feedback.join("\n")));
@@ -54,7 +54,7 @@ impl Configurations {
                 allowed_chats.push(parsed);
             }
             if let Err(_) = fs::metadata(parts[2]) {
-                let feedback = format!("O script \"{}\" não foi encontrado", parts[2]);
+                let feedback = format!("o script \"{}\" não foi encontrado", parts[2]);
                 return Err(string_to_static::parse(feedback));
             };
             commands.push(Command {
