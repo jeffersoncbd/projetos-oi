@@ -10,7 +10,8 @@ set heading on
 
 spool &1
 
-SELECT SYSDATE, 
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD/MM/YYYY';
+SELECT SYSDATE,
 trunc(arq_dt_vencimento) as vencimento,
 CASE
 WHEN status_processamento is not null
@@ -33,7 +34,7 @@ WHEN LOWER(arq_email) not like '%@contaonline-whatsapp.oi.com.br%'
 THEN 'E-MAIL'
 ELSE 'WHATSAPP'
 END as tipo,
-CASE 
+CASE
 WHEN nome_arquivo_saida like '%ARBOR%'
 THEN 'Movel'
 WHEN nome_arquivo_saida like '%SISRAF%'
@@ -43,14 +44,14 @@ THEN 'Fixa R2'
 WHEN nome_arquivo_saida like '%TV%'
 THEN 'TV'
 END as produto,
-COUNT(1) as quantidade 
+COUNT(1) as quantidade
 FROM ged360bd.vw_cnt_ems_dados_notificacao
 WHERE arq_dt_vencimento BETWEEN SYSDATE AND SYSDATE + 15 -- PERIODO DE VENCIMENTO
 AND data_processamento_brscan BETWEEN SYSDATE - 30 AND SYSDATE + 15 -- PERIODO DE PROCESSAMENTO
 --AND trunc(arq_dt_vencimento) = to_date('16/09/2022') -- DATA DE VENCIMENTO
 --AND nome_arquivo_saida like '%ARBOR%' -- PRODUTO
 --AND LOWER(arq_email) like '%@contaonline-whatsapp.oi.com.br%' -- TIPO DE PROCESSO
-AND status_fatura in (1,6) -- STATUS 
+AND status_fatura in (1,6) -- STATUS
 GROUP BY
 trunc(arq_dt_vencimento),
 status_processamento,
@@ -60,7 +61,7 @@ THEN 'E-MAIL'
 ELSE 'WHATSAPP'
 END,
 status_fatura,
-CASE 
+CASE
 WHEN nome_arquivo_saida like '%ARBOR%'
 THEN 'Movel'
 WHEN nome_arquivo_saida like '%SISRAF%'
