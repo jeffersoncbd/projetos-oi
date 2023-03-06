@@ -1,15 +1,34 @@
-use crate::{csv, data, reports, Configurations};
+use tg_api::ImageMessage;
+use uuid::Uuid;
+
+use crate::{csv, data, reports, telegram, Configurations};
 
 pub fn run(configurations: Configurations) -> Result<(), &'static str> {
-    let data = {
-        let csv_content = csv::read(&configurations.csv_path)?;
-        data::Structure::from(csv_content, &configurations.filtering_period)
+    let tg = telegram::new_client(configurations.telegram_token);
+
+    let spreadsheets = {
+        let data = {
+            let csv_content = csv::read(&configurations.csv_path)?;
+            data::Structure::from(csv_content, &configurations.filtering_period)
+        };
+
+        [
+            reports::mount(&data, "WHATSAPP")?,
+            reports::mount(&data, "E-MAIL")?,
+        ]
     };
 
-    let whatsapp_spreadsheet = reports::mount(&data, "WHATSAPP")?;
-    let email_spreadsheet = reports::mount(&data, "E-MAIL")?;
-
-    whatsapp_spreadsheet.save_png("whatsapp.png")?;
-    email_spreadsheet.save_png("email.png")?;
+    for spreadsheet in spreadsheets {
+        let id = Uuid::new_v4();
+        let report_path = format!("/tmp/{}.png", id.to_string());
+        spreadsheet.save_png(&report_path)?;
+        if let Err(error) = tg.send_image(ImageMessage {
+            image_path: &report_path,
+            to: &configurations.destiny_id.as_str(),
+        }) {
+            let feedback = format!("Telegram: {}", error);
+            return Err(string_to_static::parse(feedback));
+        };
+    }
     Ok(())
 }
