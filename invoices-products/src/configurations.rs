@@ -10,7 +10,7 @@ impl Configurations {
         if cfg!(debug_assertions) {
             return Ok(Configurations {
                 csv_path: "result.csv".to_string(),
-                filtering_period: Some(vec![String::from("16")]),
+                filtering_period: None,
             });
         }
 
