@@ -19,7 +19,7 @@ impl Clone for Date {
 }
 
 const MONTHS: [&str; 12] = [
-    "jan", "feb", "mar", "apr", "may", "jun", "jul", "ago", "set", "out", "nov", "dec",
+    "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "set", "out", "nov", "dec",
 ];
 
 fn get_month_number(month: &str) -> Result<u32, &'static str> {
