@@ -26,9 +26,6 @@ pub fn mount(
     if status.len() == 0 {
         return Ok(None);
     }
-    if status.len() > 1 {
-        return Err("a quantidade de status no relatório de produtos foi maior que 1, isso requer uma atualização no bot!");
-    }
 
     let spreadsheet_title = format!("[Produtos] Verificação E-Mail Seguro - {}", product_type);
     let mut spreadsheet = Spreadsheet::new(spreadsheet_title);
@@ -36,7 +33,13 @@ pub fn mount(
     spreadsheet.set_cell(Cell {
         column: 1,
         row: 1,
-        content: String::from(status[0]),
+        content: String::from(
+            status
+                .iter()
+                .map(|i| String::from(i.clone()))
+                .collect::<Vec<String>>()
+                .join(" - "),
+        ),
         color: None,
     });
     spreadsheet.set_cell_custom_font((1, 1), "bold");
