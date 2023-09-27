@@ -10,7 +10,10 @@ pub fn string_date_to_utc(date: &String) -> DateTime<Utc> {
     Utc.with_ymd_and_hms(year, month, day, 0, 0, 0).unwrap()
 }
 
-pub fn mount(data: &Vec<Structure>, product_type: &str) -> Result<Spreadsheet, &'static str> {
+pub fn mount(
+    data: &Vec<Structure>,
+    product_type: &str,
+) -> Result<Option<Spreadsheet>, &'static str> {
     let filtered_data: Vec<&Structure> =
         data.iter().filter(|row| row.tipo == product_type).collect();
 
@@ -19,6 +22,9 @@ pub fn mount(data: &Vec<Structure>, product_type: &str) -> Result<Spreadsheet, &
         if !status.contains(&&row.status) {
             status.push(&row.status);
         }
+    }
+    if status.len() == 0 {
+        return Ok(None);
     }
     if status.len() > 1 {
         return Err("a quantidade de status no relatório de produtos foi maior que 1, isso requer uma atualização no bot!");
@@ -151,5 +157,5 @@ pub fn mount(data: &Vec<Structure>, product_type: &str) -> Result<Spreadsheet, &
     spreadsheet.set_row_custom_font(rows_headers.len() + 3, "bold");
     spreadsheet.set_column_custom_font(columns_headers.len() + 2, "bold");
 
-    Ok(spreadsheet)
+    Ok(Some(spreadsheet))
 }

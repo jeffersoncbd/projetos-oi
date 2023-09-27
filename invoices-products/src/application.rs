@@ -21,14 +21,16 @@ pub fn run(configurations: Configurations) -> Result<(), &'static str> {
     for spreadsheet in spreadsheets {
         let id = Uuid::new_v4();
         let report_path = format!("/tmp/{}.png", id.to_string());
-        spreadsheet.save_png(&report_path)?;
-        if let Err(error) = tg.send_image(ImageMessage {
-            image_path: &report_path,
-            to: &configurations.destiny_id.as_str(),
-        }) {
-            let feedback = format!("Telegram: {}", error);
-            return Err(string_to_static::parse(feedback));
-        };
+        if let Some(spreadsheet) = spreadsheet {
+            spreadsheet.save_png(&report_path)?;
+            if let Err(error) = tg.send_image(ImageMessage {
+                image_path: &report_path,
+                to: &configurations.destiny_id.as_str(),
+            }) {
+                let feedback = format!("Telegram: {}", error);
+                return Err(string_to_static::parse(feedback));
+            };
+        }
     }
     Ok(())
 }
